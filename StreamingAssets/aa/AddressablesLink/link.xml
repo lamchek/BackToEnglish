@@ -56,7 +56,7 @@
     <type fullname="FroggyProgressForOne" preserve="all" />
     <type fullname="GroundedEffect" preserve="all" />
     <type fullname="HardnessService" preserve="all" />
-    <type fullname="HomeSceneEntry" preserve="all" />
+    <type fullname="HomeSceneEntry1" preserve="all" />
     <type fullname="HomeStationExerciseListHolder" preserve="all" />
     <type fullname="HomeStationExerciseListProvider" preserve="all" />
     <type fullname="HomeStationExerciseListResultSource" preserve="all" />
@@ -376,10 +376,10 @@
   </assembly>
   <assembly fullname="UnityEngine.TextCoreTextEngineModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.TextCore.Text.FontAsset" preserve="all" />
-    <type fullname="UnityEngine.TextCore.Text.Character" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontAssetCreationEditorSettings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Text.Character" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
