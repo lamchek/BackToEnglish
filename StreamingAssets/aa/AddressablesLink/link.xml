@@ -194,6 +194,7 @@
     <type fullname="SwitchMicrophoneMode" preserve="all" />
     <type fullname="TableCamera" preserve="all" />
     <type fullname="TaskFactory" preserve="all" />
+    <type fullname="TestTouchPointerPress" preserve="all" />
     <type fullname="TextMeshProColors" preserve="all" />
     <type fullname="TextMeshProOpacity" preserve="all" />
     <type fullname="TextUI" preserve="all" />
