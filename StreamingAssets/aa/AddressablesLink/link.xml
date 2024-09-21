@@ -3,18 +3,16 @@
     <type fullname="ActionButtonService" preserve="all" />
     <type fullname="ActionButtonTextScriptable" preserve="all" />
     <type fullname="ActivityControl" preserve="all" />
-    <type fullname="AdjustablaCameraAngleSimple" preserve="all" />
     <type fullname="AdjustableCameraAngle" preserve="all" />
     <type fullname="AdjustableCameraAnglesScriptable" preserve="all" />
-    <type fullname="AdjustablePlayerCameraRoot" preserve="all" />
     <type fullname="AdvertisementContent" preserve="all" />
     <type fullname="AdvertisementRoot" preserve="all" />
     <type fullname="Ambients" preserve="all" />
-    <type fullname="AnimatorActivateCollider" preserve="all" />
     <type fullname="AudioEffects" preserve="all" />
     <type fullname="AudioPlayer" preserve="all" />
     <type fullname="AudioService" preserve="all" />
     <type fullname="AudioSettingsScriptable" preserve="all" />
+    <type fullname="BasicRigidBodyPush" preserve="all" />
     <type fullname="BlackoutScreen" preserve="all" />
     <type fullname="Brick" preserve="all" />
     <type fullname="BrickAnimated" preserve="all" />
@@ -32,15 +30,14 @@
     <type fullname="CillianIntro" preserve="all" />
     <type fullname="CillianLight" preserve="all" />
     <type fullname="CillianSceneSettings" preserve="all" />
+    <type fullname="ClickInteractable" preserve="all" />
     <type fullname="CloudService" preserve="all" />
     <type fullname="ColorLookupEffects" preserve="all" />
     <type fullname="ComboEffects" preserve="all" />
-    <type fullname="ConeDetector" preserve="all" />
     <type fullname="ContentLoader" preserve="all" />
+    <type fullname="ControllableCamera" preserve="all" />
     <type fullname="CreatePlayerFriend" preserve="all" />
     <type fullname="CursorLocker" preserve="all" />
-    <type fullname="DeepTextScriptable" preserve="all" />
-    <type fullname="DrawRay" preserve="all" />
     <type fullname="ExerciseListItems" preserve="all" />
     <type fullname="ExerciseListLocal" preserve="all" />
     <type fullname="ExerciseMonitor" preserve="all" />
@@ -50,15 +47,14 @@
     <type fullname="FakeCursor" preserve="all" />
     <type fullname="FillTheGap" preserve="all" />
     <type fullname="FirstPersonCameraController" preserve="all" />
-    <type fullname="FollowToTarget" preserve="all" />
     <type fullname="FollowToTargetWithRigidbody" preserve="all" />
     <type fullname="FontStyle" preserve="all" />
     <type fullname="FontStyleService" preserve="all" />
     <type fullname="FPSCounter" preserve="all" />
     <type fullname="FpsCounterSwitcher" preserve="all" />
     <type fullname="FrameUI" preserve="all" />
-    <type fullname="FroggyMechanicSelector" preserve="all" />
     <type fullname="FroggyProgressForOne" preserve="all" />
+    <type fullname="GroundedEffect" preserve="all" />
     <type fullname="HardnessService" preserve="all" />
     <type fullname="HomeSceneEntry1" preserve="all" />
     <type fullname="HomeStationExerciseListHolder" preserve="all" />
@@ -66,101 +62,59 @@
     <type fullname="HomeStationExerciseListResultSource" preserve="all" />
     <type fullname="HomeStationExerciseListSelector" preserve="all" />
     <type fullname="InfoCornerService" preserve="all" />
-    <type fullname="InfoPointLessonProgress" preserve="all" />
-    <type fullname="InfoPointSkillAccruer" preserve="all" />
-    <type fullname="InfoZoneDataHolder" preserve="all" />
-    <type fullname="InfoZoneResultBox" preserve="all" />
     <type fullname="InputSwitcher" preserve="all" />
     <type fullname="InscriptionObject" preserve="all" />
     <type fullname="InteractableCollider" preserve="all" />
-    <type fullname="InteractableFocus" preserve="all" />
-    <type fullname="InteractableObjectNew" preserve="all" />
-    <type fullname="InteractableSimple" preserve="all" />
+    <type fullname="InteractableLightSwitcher" preserve="all" />
     <type fullname="Keyboard3d" preserve="all" />
-    <type fullname="LessonContentSwitcher" preserve="all" />
     <type fullname="LessonEffects" preserve="all" />
-    <type fullname="LessonElevatorTitleTypeCollider" preserve="all" />
-    <type fullname="LessonExerciseListDataHolder" preserve="all" />
-    <type fullname="LessonExerciseProvider" preserve="all" />
-    <type fullname="LessonExerciseSwitcher" preserve="all" />
-    <type fullname="LessonInfo" preserve="all" />
-    <type fullname="Lessons.Info_Monitor.InfoPointCillianDescription" preserve="all" />
-    <type fullname="Lessons.Info_Zone.InfoZoneInteractable" preserve="all" />
-    <type fullname="LessonSelector" preserve="all" />
-    <type fullname="LessonsList" preserve="all" />
-    <type fullname="LessonsPanel" preserve="all" />
-    <type fullname="LessonTableInteractable" preserve="all" />
-    <type fullname="LessonTitle" preserve="all" />
-    <type fullname="LibraryDataHolder" preserve="all" />
-    <type fullname="LibraryDeepTextItem" preserve="all" />
-    <type fullname="LibraryDeepTextItemsList" preserve="all" />
-    <type fullname="LibraryDeepTextScriptable" preserve="all" />
-    <type fullname="LibraryDescriptions" preserve="all" />
-    <type fullname="LibraryGlassText" preserve="all" />
-    <type fullname="LibraryPicoSentence" preserve="all" />
-    <type fullname="LibraryPicoWords" preserve="all" />
-    <type fullname="LibraryReadAloud" preserve="all" />
     <type fullname="LibrarySettings" preserve="all" />
-    <type fullname="LibrarySkillAccruer" preserve="all" />
-    <type fullname="LibrarySpelling" preserve="all" />
-    <type fullname="LibraryTitle" preserve="all" />
-    <type fullname="ListenChillInteractable" preserve="all" />
-    <type fullname="ListenChillPoint" preserve="all" />
     <type fullname="ListenFlyDataHolder" preserve="all" />
     <type fullname="ListeningVisualizer" preserve="all" />
     <type fullname="ListenTask" preserve="all" />
     <type fullname="MainCamera" preserve="all" />
     <type fullname="MainPlayer" preserve="all" />
     <type fullname="MainSceneEntryPoint" preserve="all" />
-    <type fullname="MechanicSelectorUI" preserve="all" />
     <type fullname="MechanicsInfoScriptable" preserve="all" />
     <type fullname="MenuController" preserve="all" />
     <type fullname="MessageService" preserve="all" />
     <type fullname="MessageUI" preserve="all" />
     <type fullname="MonitorAnimator" preserve="all" />
-    <type fullname="MoveToContentTarget" preserve="all" />
     <type fullname="OnMouseDownWithEvent" preserve="all" />
     <type fullname="Outliner" preserve="all" />
     <type fullname="OutlineService" preserve="all" />
+    <type fullname="PauseUI" preserve="all" />
     <type fullname="Player.Cillian.BottomUI.BottomUI" preserve="all" />
     <type fullname="Player.Cillian.Cillian" preserve="all" />
     <type fullname="Player.Cillian.CillianIcons" preserve="all" />
     <type fullname="Player.Cillian.TopUI.TopUI" preserve="all" />
+    <type fullname="PlayerBusy" preserve="all" />
     <type fullname="PlayerCameraEffects" preserve="all" />
     <type fullname="PlayerCollider" preserve="all" />
     <type fullname="PlayerDataHolder" preserve="all" />
+    <type fullname="Players" preserve="all" />
     <type fullname="PlayerSettingsNamespace.PlayerSettingsScriptable" preserve="all" />
-    <type fullname="PointerService" preserve="all" />
     <type fullname="PointLeftRight" preserve="all" />
     <type fullname="PointRotate" preserve="all" />
     <type fullname="PostEffects" preserve="all" />
     <type fullname="PostProcessingRoot" preserve="all" />
+    <type fullname="PrepositionsPlayground.PlayerPickUpDrop" preserve="all" />
     <type fullname="ProjectData" preserve="all" />
     <type fullname="PutInCorrectOrder" preserve="all" />
     <type fullname="QualityMaster" preserve="all" />
     <type fullname="QualitySettingsScriptable" preserve="all" />
     <type fullname="RandomExercise" preserve="all" />
     <type fullname="RandomPoint" preserve="all" />
+    <type fullname="RaycastPlayer" preserve="all" />
     <type fullname="ReactionService" preserve="all" />
-    <type fullname="ReadCheckInteractable" preserve="all" />
-    <type fullname="ReadCheckMenu" preserve="all" />
-    <type fullname="ReadCheckObjectSwitcher" preserve="all" />
-    <type fullname="ReadCheckTextLoader" preserve="all" />
-    <type fullname="ReadingListeningSettings" preserve="all" />
     <type fullname="ReadingTask" preserve="all" />
-    <type fullname="RenderBannersLibrary" preserve="all" />
     <type fullname="RepeatTask" preserve="all" />
     <type fullname="RepeatVisualizer" preserve="all" />
-    <type fullname="Results.LibraryResultSource" preserve="all" />
-    <type fullname="Results.RandomExerciseResultSource" preserve="all" />
-    <type fullname="Results.ResultBox.BaseResultBox" preserve="all" />
     <type fullname="ResultScriptable" preserve="all" />
     <type fullname="RotateToMainCameraWithoutX" preserve="all" />
-    <type fullname="RotateToTarget" preserve="all" />
     <type fullname="SceneCounter" preserve="all" />
     <type fullname="ScreenSize" preserve="all" />
     <type fullname="ScrollerService" preserve="all" />
-    <type fullname="ScrollerSwitcher" preserve="all" />
     <type fullname="Services.PostEffects.AberrationEffects" preserve="all" />
     <type fullname="Services.PostEffects.BlurEffects" preserve="all" />
     <type fullname="Services.PostEffects.ColorEffects" preserve="all" />
@@ -168,13 +122,13 @@
     <type fullname="Services.PostEffects.FullScreenEffect" preserve="all" />
     <type fullname="Services.PostEffects.LensEffects" preserve="all" />
     <type fullname="Services.PostEffects.VignetteEffects" preserve="all" />
-    <type fullname="SetStartState" preserve="all" />
     <type fullname="Settings" preserve="all" />
     <type fullname="Settings_SO.Player.Characteristics.Characteristic" preserve="all" />
     <type fullname="Settings_SO.Player.Cillian.CillianFactory" preserve="all" />
     <type fullname="Settings_SO.Player.Cillian.CillianLoader" preserve="all" />
     <type fullname="Settings_SO.Player.Cillian.CillianTimer3d" preserve="all" />
     <type fullname="Settings_SO.Player.Cillian.MainUI" preserve="all" />
+    <type fullname="Settings_SO.Player.PlayerLight" preserve="all" />
     <type fullname="Settings_SO.Services.RenderScaler" preserve="all" />
     <type fullname="ShapesFX.Rotator" preserve="all" />
     <type fullname="SkillAccruer" preserve="all" />
@@ -187,14 +141,10 @@
     <type fullname="SkillsMenuUI" preserve="all" />
     <type fullname="SmoothDampFollowing" preserve="all" />
     <type fullname="Spelling" preserve="all" />
-    <type fullname="SplineFollowing" preserve="all" />
-    <type fullname="SplineHolderMain" preserve="all" />
-    <type fullname="SplineHolderScene" preserve="all" />
-    <type fullname="SplineService" preserve="all" />
+    <type fullname="StarterAssets.MyFirstPersonController" preserve="all" />
+    <type fullname="StarterAssets.MyStarterAssetsInputs" preserve="all" />
     <type fullname="SwitchMicrophoneMode" preserve="all" />
-    <type fullname="TableCamera" preserve="all" />
     <type fullname="TaskFactory" preserve="all" />
-    <type fullname="TestTouchPointerPress" preserve="all" />
     <type fullname="TextMeshProColors" preserve="all" />
     <type fullname="TextMeshProOpacity" preserve="all" />
     <type fullname="TextUI" preserve="all" />
@@ -204,29 +154,12 @@
     <type fullname="UserIdCorner" preserve="all" />
     <type fullname="UserQualitySettings" preserve="all" />
     <type fullname="WordBrick" preserve="all" />
-    <type fullname="WordDataListScriptable" preserve="all" />
     <type fullname="WordSpawner" preserve="all" />
     <type fullname="WordVariants" preserve="all" />
-    <type fullname=".Answer" preserve="nothing" serialized="true" />
-    <type fullname=".AnswerData" preserve="nothing" serialized="true" />
-    <type fullname=".DeepText" preserve="nothing" serialized="true" />
-    <type fullname=".Exercise" preserve="nothing" serialized="true" />
-    <type fullname=".RichWord" preserve="nothing" serialized="true" />
-    <type fullname=".TaskData" preserve="nothing" serialized="true" />
-    <type fullname=".Chunk" preserve="nothing" serialized="true" />
-    <type fullname=".Paragraph" preserve="nothing" serialized="true" />
-    <type fullname=".Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
-    <type fullname=".Sentence" preserve="nothing" serialized="true" />
+    <type fullname=".ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
     <type fullname=".ChooseOptionsUI/Template" preserve="nothing" serialized="true" />
     <type fullname=".CillianBanners/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
-    <type fullname=".ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
-    <type fullname=".LessonInfo/LessonItem" preserve="nothing" serialized="true" />
-    <type fullname=".LibraryDeepTextItem/LibraryDeepTextReferenceItem" preserve="nothing" serialized="true" />
-    <type fullname=".RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
-    <type fullname=".SplineHolderMain/SplineItem" preserve="nothing" serialized="true" />
     <type fullname="Player.Cillian.CillianIcons/IconItem" preserve="nothing" serialized="true" />
-    <type fullname=".WordData" preserve="nothing" serialized="true" />
-    <type fullname=".WordDataListScriptable/WordDataWrapper" preserve="nothing" serialized="true" />
     <type fullname=".ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname=".AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
     <type fullname=".Ambients/AmbientAudio" preserve="nothing" serialized="true" />
@@ -262,7 +195,12 @@
     <type fullname="PlayerSettingsNamespace.PlayerSettings/InputMethodPlayerSettings" preserve="nothing" serialized="true" />
     <type fullname="PlayerSettingsNamespace.PlayerSettingsScriptable/AbstractMouseSensitive" preserve="nothing" serialized="true" />
     <type fullname="PlayerSettingsNamespace.PlayerSettingsScriptable/AbstractUserMovementFactors" preserve="nothing" serialized="true" />
-    <type fullname=".SentenceTranslate" preserve="nothing" serialized="true" />
+    <type fullname=".Answer" preserve="nothing" serialized="true" />
+    <type fullname=".AnswerData" preserve="nothing" serialized="true" />
+    <type fullname=".DeepText" preserve="nothing" serialized="true" />
+    <type fullname=".Exercise" preserve="nothing" serialized="true" />
+    <type fullname=".RichWord" preserve="nothing" serialized="true" />
+    <type fullname=".TaskData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Recognissimo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Recognissimo.Components.MicrophoneSpeechSource" preserve="all" />
@@ -282,42 +220,51 @@
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.Cinemachine.Cinemachine3rdPersonFollow" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineBlenderSettings" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineBrain" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachineBrainEvents" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineCamera" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachinePipeline" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineSequencerCamera" preserve="all" />
-    <type fullname="Unity.Cinemachine.CinemachineSplineCart" preserve="all" />
-    <type fullname="Unity.Cinemachine.CinemachineThirdPersonFollow" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachineVirtualCamera" preserve="all" />
     <type fullname="Unity.Cinemachine.NoiseSettings" preserve="all" />
     <type fullname="Unity.Cinemachine.CameraTarget" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.LensSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.LensSettings/PhysicalSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.PrioritySettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineBrain/LensModeOverrideSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineCameraManagerBase/DefaultTargetSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineSequencerCamera/Instruction" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.LensSettings" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.LensSettings/PhysicalSettings" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.PrioritySettings" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.SplineAutoDolly" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.SplineAutoDolly/FixedSpeed" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.SplineSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineBlenderSettings/CustomBlend" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.CinemachineThirdPersonFollow/ObstacleSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineCore/BlendEvent" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineCore/BrainEvent" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineCore/CameraEvent" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineLegacyCameraEvents/OnCameraLiveEvent" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineVirtualCamera/LegacyTransitionParams" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.LegacyLensSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.NoiseSettings/NoiseParams" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.NoiseSettings/TransformNoiseParams" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Unity.InputSystem, Version=1.11.0.0, Culture=neutral, PublicKeyToken=null">
+  <assembly fullname="Unity.InputSystem, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
     <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.PlayerInput" preserve="all" />
     <type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="all" />
     <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.PlayerInput/ActionEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.PlayerInput/DeviceLostEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Volume" preserve="all" />
@@ -326,11 +273,11 @@
     <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.FloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.NoInterpTextureParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Vector2Parameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.FloatParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.NoInterpTextureParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
@@ -342,29 +289,25 @@
     <type fullname="UnityEngine.Rendering.Universal.LensDistortion" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.MotionBlur" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.SplitToning" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.Tonemapping" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.DepthOfFieldModeParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.FilmGrainLookupParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.HDRACESPresetParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.MotionBlurModeParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.MotionBlurQualityParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.TonemappingModeParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.DepthOfFieldModeParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.FilmGrainLookupParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.Splines, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Splines.SplineContainer" preserve="all" />
-    <type fullname="UnityEngine.Splines.BezierKnot" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.KnotLinkCollection" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.Spline" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.Spline/MetaData" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.SplineDataDictionary`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TextMeshPro" preserve="all" />
@@ -395,11 +338,13 @@
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
     <type fullname="UnityEngine.LODGroup" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
@@ -411,9 +356,9 @@
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -423,6 +368,7 @@
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.CharacterController" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
     <type fullname="UnityEngine.PhysicsMaterial" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
@@ -469,11 +415,6 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.Mathematics">
-    <type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Mathematics.float4" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Mathematics.quaternion" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
