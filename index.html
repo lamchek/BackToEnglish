@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | Back to English</title>
+    <title>Unity Web Player | Test WebGPU cube</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Back to English</div>
+        <div id="unity-build-title">Test WebGPU cube</div>
       </div>
     </div>
     <script>
@@ -52,15 +52,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebGL Build.loader.js";
+      var loaderUrl = buildUrl + "/WebGPU Build.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/WebGL Build.data.unityweb",
-        frameworkUrl: buildUrl + "/WebGL Build.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebGL Build.wasm.unityweb",
+        dataUrl: buildUrl + "/WebGPU Build.data.br",
+        frameworkUrl: buildUrl + "/WebGPU Build.framework.js.br",
+        codeUrl: buildUrl + "/WebGPU Build.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Back to English",
+        productName: "Test WebGPU cube",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
