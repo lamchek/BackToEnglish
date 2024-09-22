@@ -3,6 +3,7 @@
     <type fullname="ActionButtonService" preserve="all" />
     <type fullname="ActionButtonTextScriptable" preserve="all" />
     <type fullname="ActivityControl" preserve="all" />
+    <type fullname="Adjustable" preserve="all" />
     <type fullname="AdjustableCameraAngle" preserve="all" />
     <type fullname="AdjustableCameraAnglesScriptable" preserve="all" />
     <type fullname="AdvertisementContent" preserve="all" />
@@ -19,6 +20,8 @@
     <type fullname="BrickSoundEffect" preserve="all" />
     <type fullname="BricksSpawner" preserve="all" />
     <type fullname="ButtonColliderWithoutMesh" preserve="all" />
+    <type fullname="CamTest" preserve="all" />
+    <type fullname="CamTestUI" preserve="all" />
     <type fullname="CharacteristicSettings" preserve="all" />
     <type fullname="CheckMicrophoneMode" preserve="all" />
     <type fullname="ChooseCorrectOption" preserve="all" />
@@ -38,6 +41,7 @@
     <type fullname="ControllableCamera" preserve="all" />
     <type fullname="CreatePlayerFriend" preserve="all" />
     <type fullname="CursorLocker" preserve="all" />
+    <type fullname="EnterExitCollider" preserve="all" />
     <type fullname="ExerciseListItems" preserve="all" />
     <type fullname="ExerciseListLocal" preserve="all" />
     <type fullname="ExerciseMonitor" preserve="all" />
@@ -66,6 +70,7 @@
     <type fullname="InscriptionObject" preserve="all" />
     <type fullname="InteractableCollider" preserve="all" />
     <type fullname="InteractableLightSwitcher" preserve="all" />
+    <type fullname="InteractableObject" preserve="all" />
     <type fullname="Keyboard3d" preserve="all" />
     <type fullname="LessonEffects" preserve="all" />
     <type fullname="LibrarySettings" preserve="all" />
@@ -105,6 +110,7 @@
     <type fullname="QualitySettingsScriptable" preserve="all" />
     <type fullname="RandomExercise" preserve="all" />
     <type fullname="RandomPoint" preserve="all" />
+    <type fullname="RaycastHitCollider" preserve="all" />
     <type fullname="RaycastPlayer" preserve="all" />
     <type fullname="ReactionService" preserve="all" />
     <type fullname="ReadingTask" preserve="all" />
@@ -238,27 +244,27 @@
     <type fullname="Unity.Cinemachine.LensSettings/PhysicalSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.PrioritySettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineBlenderSettings/CustomBlend" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineBrain/LensModeOverrideSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineCameraManagerBase/DefaultTargetSettings" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.CinemachineSequencerCamera/Instruction" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.CinemachineBlenderSettings/CustomBlend" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineCore/BlendEvent" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineCore/BrainEvent" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineCore/CameraEvent" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineSequencerCamera/Instruction" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineLegacyCameraEvents/OnCameraLiveEvent" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineVirtualCamera/LegacyTransitionParams" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.LegacyLensSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.NoiseSettings/NoiseParams" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.NoiseSettings/TransformNoiseParams" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Unity.InputSystem, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null">
+  <assembly fullname="Unity.InputSystem, Version=1.11.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
     <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
     <type fullname="UnityEngine.InputSystem.PlayerInput" preserve="all" />
     <type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="all" />
     <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.InputSystem.PlayerInput/ActionEvent" preserve="nothing" serialized="true" />
