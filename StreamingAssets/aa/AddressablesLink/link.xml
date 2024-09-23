@@ -38,8 +38,10 @@
     <type fullname="CursorLocker" preserve="all" />
     <type fullname="DrawRay" preserve="all" />
     <type fullname="ExerciseListItems" preserve="all" />
+    <type fullname="ExerciseListLocal" preserve="all" />
     <type fullname="ExerciseMonitor" preserve="all" />
     <type fullname="ExerciseMonitorRenderObjects" preserve="all" />
+    <type fullname="ExerciseScriptable" preserve="all" />
     <type fullname="ExerciseService" preserve="all" />
     <type fullname="FakeCursor" preserve="all" />
     <type fullname="FillTheGap" preserve="all" />
@@ -200,6 +202,10 @@
     <type fullname="RichWord" preserve="nothing" serialized="true" />
     <type fullname="Sentence" preserve="nothing" serialized="true" />
     <type fullname="SentenceTranslate" preserve="nothing" serialized="true" />
+    <type fullname="Answer" preserve="nothing" serialized="true" />
+    <type fullname="AnswerData" preserve="nothing" serialized="true" />
+    <type fullname="Exercise" preserve="nothing" serialized="true" />
+    <type fullname="TaskData" preserve="nothing" serialized="true" />
     <type fullname="ChooseOptionsUI/Template" preserve="nothing" serialized="true" />
     <type fullname="CillianBanners/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
     <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
