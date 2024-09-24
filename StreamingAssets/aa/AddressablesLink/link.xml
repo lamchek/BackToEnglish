@@ -36,6 +36,7 @@
     <type fullname="ContentLoader" preserve="all" />
     <type fullname="CreatePlayerFriend" preserve="all" />
     <type fullname="CursorLocker" preserve="all" />
+    <type fullname="DisableOnAwake" preserve="all" />
     <type fullname="DrawRay" preserve="all" />
     <type fullname="ExerciseListItems" preserve="all" />
     <type fullname="ExerciseListLocal" preserve="all" />
@@ -166,9 +167,12 @@
     <type fullname="Settings_SO.Services.RenderScaler" preserve="all" />
     <type fullname="ShapesFX.Rotator" preserve="all" />
     <type fullname="SkillAccruer" preserve="all" />
+    <type fullname="SkillAccruerTest" preserve="all" />
     <type fullname="SkillItemAnimation" preserve="all" />
     <type fullname="SkillMenuBar" preserve="all" />
+    <type fullname="SkillMenuCamera" preserve="all" />
     <type fullname="SkillMenuControl" preserve="all" />
+    <type fullname="SkillMenuLevel" preserve="all" />
     <type fullname="SkillMenuScore" preserve="all" />
     <type fullname="SkillsAdditionSettings" preserve="all" />
     <type fullname="SkillsMenuService" preserve="all" />
