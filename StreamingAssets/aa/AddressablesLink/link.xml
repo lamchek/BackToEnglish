@@ -108,6 +108,7 @@
     <type fullname="MessageService" preserve="all" />
     <type fullname="MessageUI" preserve="all" />
     <type fullname="MonitorAnimator" preserve="all" />
+    <type fullname="MoveToContentTarget" preserve="all" />
     <type fullname="OnMouseDownWithEvent" preserve="all" />
     <type fullname="Outliner" preserve="all" />
     <type fullname="OutlineService" preserve="all" />
@@ -165,6 +166,8 @@
     <type fullname="Settings_SO.Player.Cillian.CillianTimer3d" preserve="all" />
     <type fullname="Settings_SO.Player.Cillian.MainUI" preserve="all" />
     <type fullname="Settings_SO.Services.RenderScaler" preserve="all" />
+    <type fullname="SettingsButtonUI" preserve="all" />
+    <type fullname="SettingsUIStarter" preserve="all" />
     <type fullname="ShapesFX.Rotator" preserve="all" />
     <type fullname="SkillAccruer" preserve="all" />
     <type fullname="SkillAccruerTest" preserve="all" />
