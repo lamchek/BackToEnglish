@@ -12,6 +12,7 @@
     <type fullname="AudioPlayer" preserve="all" />
     <type fullname="AudioService" preserve="all" />
     <type fullname="AudioSettingsScriptable" preserve="all" />
+    <type fullname="BackgroundReplacer" preserve="all" />
     <type fullname="BlackoutScreen" preserve="all" />
     <type fullname="Brick" preserve="all" />
     <type fullname="BrickAnimated" preserve="all" />
