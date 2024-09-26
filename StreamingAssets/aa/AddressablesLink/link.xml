@@ -66,6 +66,7 @@
     <type fullname="InputSwitcher" preserve="all" />
     <type fullname="InscriptionObject" preserve="all" />
     <type fullname="InteractableFocus" preserve="all" />
+    <type fullname="InteractableLayerList" preserve="all" />
     <type fullname="InteractableObjectNew" preserve="all" />
     <type fullname="InteractableSimple" preserve="all" />
     <type fullname="Keyboard3d" preserve="all" />
