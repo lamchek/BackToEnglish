@@ -195,6 +195,7 @@
     <type fullname="TextMeshProOpacity" preserve="all" />
     <type fullname="TextUI" preserve="all" />
     <type fullname="TranscriptionObject" preserve="all" />
+    <type fullname="TryLoadWordVariants" preserve="all" />
     <type fullname="UISizeSettingsScriptable" preserve="all" />
     <type fullname="UIVisualService" preserve="all" />
     <type fullname="UserIdCorner" preserve="all" />
