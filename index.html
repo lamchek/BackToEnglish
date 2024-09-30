@@ -3,46 +3,47 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | WebGL Loader Tutorial Build</title>
+    <title>Unity WebGL Player | English H</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=100% height=100%></canvas>
+      <canvas id="unity-canvas" width=100% height=100% tabindex="-1"></canvas>
       <div id="unity-custom-loading-screen">
         <div id="custom-logo-background">
-            <div class="progress-container">
-              <div class="progress-box">
-                <div class="progress-fill"></div>
-              </div>
-              <div class="progress-state state-load">Connecting…</div>
-              <div class="progress-state state-finish">Complete!</div>
+          <div class="progress-container">
+            <div class="progress-box">
+              <div class="progress-fill"></div>
             </div>
-            <div class="dump-truck">
-              <div class="front"></div>
-              <div class="bucket"></div>
-              <div class="dirt">
-                <div class="dirt-spill"></div>
-              </div>
-              <div class="base"></div>
-              <div class="wheel wheel-front"></div>
-              <div class="wheel wheel-middle"></div>
-              <div class="wheel wheel-back"></div>
+            <div class="progress-state state-load">Connecting…</div>
+            <div class="progress-state state-finish">Complete!</div>
+          </div>
+          <div class="dump-truck">
+            <div class="front"></div>
+            <div class="bucket"></div>
+            <div class="dirt">
+              <div class="dirt-spill"></div>
             </div>
-            <div class="dump-truck">
-              <div class="front"></div>
-              <div class="bucket"></div>
-              <div class="dirt">
-                <div class="dirt-spill"></div>
-              </div>
-              <div class="base"></div>
-              <div class="wheel wheel-front"></div>
-              <div class="wheel wheel-middle"></div>
-              <div class="wheel wheel-back"></div>
+            <div class="base"></div>
+            <div class="wheel wheel-front"></div>
+            <div class="wheel wheel-middle"></div>
+            <div class="wheel wheel-back"></div>
+          </div>
+          <div class="dump-truck">
+            <div class="front"></div>
+            <div class="bucket"></div>
+            <div class="dirt">
+              <div class="dirt-spill"></div>
             </div>
+            <div class="base"></div>
+            <div class="wheel wheel-front"></div>
+            <div class="wheel wheel-middle"></div>
+            <div class="wheel wheel-back"></div>
+          </div>
         </div>
+      </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
@@ -52,11 +53,10 @@
     </div>
     <script src='JsCursorLockChangeHandler.js'></script>
     <script>
+
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
       var loadingScreen = document.querySelector("#unity-custom-loading-screen");
-      var customLoadingBar = document.querySelector("#custom-loader");
-      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var warningBanner = document.querySelector("#unity-warning");
 
       // Shows a temporary message banner/ribbon for a few seconds, or
@@ -96,7 +96,7 @@
         showBanner: unityShowBanner,
       };
 
-      // By default Unity keeps WebGL canvas render target size matched with
+      // By default, Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
       // Set this to false if you want to decouple this synchronization from
       // happening inside the engine, and you would instead like to size up
@@ -104,84 +104,60 @@
       // config.matchWebGLToCanvasSize = false;
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
         container.className = "unity-mobile";
-        // Avoid draining fillrate performance on mobile devices,
-        // and default/override low DPI mode on mobile browsers.
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
         config.devicePixelRatio = 1.8;
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
         canvas.style.width = "100%";
         canvas.style.height = "100%";
         config.devicePixelRatio = 1.3;
       }
-      loadingScreen.style.display = "block";
-      document.addEventListener("pointerlockchange", lockChangeAlert, false);
-
-      function lockChangeAlert() {
-        if (document.pointerLockElement === canvas) {
-          console.log("The pointer lock status is now locked");
-          // Do something useful in response
-        } else {
-          console.log("The pointer lock status is now unlocked");
-          // Do something useful in response
-        }
-      }
       
-      var loadingProgress;
+      loadingScreen.style.display = "block";
+      
       var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
-          
-          // unitySetLoaderProgressTo(progress);
-        }).then((unityInstance) => {
+          }).then((unityInstance) => {
           setTimeout(function() {
             loadingScreen.style.display = "none";
           },2100);
-          fullscreenButton.onclick = () => {
-            unityInstance.SetFullscreen(1);
-          };
-        }).catch((message) => {
-          alert(message);
-        });
-      };
+          }).catch((message) => {
+            alert(message);
+          });
+        };
       document.body.appendChild(script);
-
-      // value - 0 to 1
-      function unitySetLoaderProgressTo(value)
-      {
-        const fill = customLoadingBar.getElementsByClassName("fill")[0];
-        const fillText = customLoadingBar.getElementsByClassName("label")[0];
-
-        fill.animate(
-          [
-            { width: (value * 100) + "%" }
-          ],
-          {
-            duration: 300,
-            fill: "forwards"
-          }
-        );
-
-        fillText.textContent = (value * 100).toFixed() + "%";
-      }
 
       // trucks
       window.addEventListener("DOMContentLoaded", loading)
       function loading() {
-        var percents = [0.25,0.5,0.75,1],
+        var percents = [0.25, 0.5, 0.75, 1],
                 step = 0,
                 truckLoopDur = 10,
-                fill = function() {
+                fill = function () {
                   let fillEl = document.querySelector(".progress-fill");
                   fillEl.style.transform = "scaleY(" + percents[step] + ")";
                   ++step;
 
                   if (step < percents.length) {
-                    setTimeout(fill, (truckLoopDur * 1e3)/2);
+                    setTimeout(fill, (truckLoopDur * 1e3) / 2);
                   }
                 };
-        setTimeout(fill, (truckLoopDur * 1e3)/4);
+        setTimeout(fill, (truckLoopDur * 1e3) / 4);
       }
     </script>
   </body>

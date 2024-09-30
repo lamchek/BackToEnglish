@@ -116,6 +116,7 @@
     <type fullname="Outliner" preserve="all" />
     <type fullname="OutlineService" preserve="all" />
     <type fullname="PauseBackground" preserve="all" />
+    <type fullname="PauseDoc" preserve="all" />
     <type fullname="PauseService" preserve="all" />
     <type fullname="Player.Cillian.BottomUI.BottomUI" preserve="all" />
     <type fullname="Player.Cillian.Cillian" preserve="all" />
