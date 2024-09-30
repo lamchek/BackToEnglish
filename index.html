@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | English H</title>
+    <title>Unity WebGL Player | WebGL Loader Tutorial Build</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=100% height=100% tabindex="-1"></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
+      <canvas id="unity-canvas" width=100% height=100%></canvas>
+      <div id="unity-custom-loading-screen">
+        <div id="custom-logo"></div>
+        <div id="custom-loader">
+          <div class="fill"></div>
+          <div class="label"></div>
         </div>
       </div>
       <div id="unity-warning"> </div>
@@ -25,11 +26,10 @@
     </div>
     <script src='JsCursorLockChangeHandler.js'></script>
     <script>
-
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
-      var loadingBar = document.querySelector("#unity-loading-bar");
-      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var loadingScreen = document.querySelector("#unity-custom-loading-screen");
+      var customLoadingBar = document.querySelector("#custom-loader");
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var warningBanner = document.querySelector("#unity-warning");
 
@@ -70,7 +70,7 @@
         showBanner: unityShowBanner,
       };
 
-      // By default, Unity keeps WebGL canvas render target size matched with
+      // By default Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
       // Set this to false if you want to decouple this synchronization from
       // happening inside the engine, and you would instead like to size up
@@ -78,30 +78,17 @@
       // config.matchWebGLToCanvasSize = false;
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        // Mobile device style: fill the whole browser client area with the game canvas:
-
-        var meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-        document.getElementsByTagName('head')[0].appendChild(meta);
         container.className = "unity-mobile";
-        canvas.className = "unity-mobile";
-
-        // To lower canvas resolution on mobile devices to gain some
-        // performance, uncomment the following line:
-        // config.devicePixelRatio = 1;
-
+        // Avoid draining fillrate performance on mobile devices,
+        // and default/override low DPI mode on mobile browsers.
         config.devicePixelRatio = 1.8;
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
-        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-
         canvas.style.width = "100%";
         canvas.style.height = "100%";
         config.devicePixelRatio = 1.3;
       }
-
-      loadingBar.style.display = "block";
-
+      loadingScreen.style.display = "block";
       document.addEventListener("pointerlockchange", lockChangeAlert, false);
 
       function lockChangeAlert() {
@@ -118,19 +105,36 @@
       script.src = loaderUrl;
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
-          progressBarFull.style.width = 100 * progress + "%";
-              }).then((unityInstance) => {
-                loadingBar.style.display = "none";
-                fullscreenButton.onclick = () => {
-                  unityInstance.SetFullscreen(1);
-                };
-              }).catch((message) => {
-                alert(message);
-              });
-            };
-
+          unitySetLoaderProgressTo(progress);
+        }).then((unityInstance) => {
+          // loadingScreen.style.display = "none";
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
+      };
       document.body.appendChild(script);
 
+      // value - 0 to 1
+      function unitySetLoaderProgressTo(value)
+      {
+        const fill = customLoadingBar.getElementsByClassName("fill")[0];
+        const fillText = customLoadingBar.getElementsByClassName("label")[0];
+
+        fill.animate(
+          [
+            { width: (value * 100) + "%" }
+          ],
+          {
+            duration: 300,
+            fill: "forwards"
+          }
+        );
+
+        fillText.textContent = (value * 100).toFixed() + "%";
+      }
     </script>
   </body>
 </html>
