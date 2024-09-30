@@ -6,17 +6,43 @@
     <title>Unity WebGL Player | WebGL Loader Tutorial Build</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=100% height=100%></canvas>
       <div id="unity-custom-loading-screen">
-        <div id="custom-logo"></div>
-        <div id="custom-loader">
-          <div class="fill"></div>
-          <div class="label"></div>
+        <div id="custom-logo-background">
+            <div class="progress-container">
+              <div class="progress-box">
+                <div class="progress-fill"></div>
+              </div>
+              <div class="progress-state state-load">Loading…</div>
+              <div class="progress-state state-finish">Complete!</div>
+            </div>
+            <div class="dump-truck">
+              <div class="front"></div>
+              <div class="bucket"></div>
+              <div class="dirt">
+                <div class="dirt-spill"></div>
+              </div>
+              <div class="base"></div>
+              <div class="wheel wheel-front"></div>
+              <div class="wheel wheel-middle"></div>
+              <div class="wheel wheel-back"></div>
+            </div>
+            <div class="dump-truck">
+              <div class="front"></div>
+              <div class="bucket"></div>
+              <div class="dirt">
+                <div class="dirt-spill"></div>
+              </div>
+              <div class="base"></div>
+              <div class="wheel wheel-front"></div>
+              <div class="wheel wheel-middle"></div>
+              <div class="wheel wheel-back"></div>
+            </div>
         </div>
-      </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
@@ -101,13 +127,17 @@
         }
       }
       
+      var loadingProgress;
       var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
-          unitySetLoaderProgressTo(progress);
+          
+          // unitySetLoaderProgressTo(progress);
         }).then((unityInstance) => {
-          // loadingScreen.style.display = "none";
+          setTimeout(function() {
+            loadingScreen.style.display = "none";
+          },2100);
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
           };
@@ -134,6 +164,24 @@
         );
 
         fillText.textContent = (value * 100).toFixed() + "%";
+      }
+
+      // trucks
+      window.addEventListener("DOMContentLoaded", loading)
+      function loading() {
+        var percents = [0.25,0.5,0.75,1],
+                step = 0,
+                truckLoopDur = 10,
+                fill = function() {
+                  let fillEl = document.querySelector(".progress-fill");
+                  fillEl.style.transform = "scaleY(" + percents[step] + ")";
+                  ++step;
+
+                  if (step < percents.length) {
+                    setTimeout(fill, (truckLoopDur * 1e3)/2);
+                  }
+                };
+        setTimeout(fill, (truckLoopDur * 1e3)/4);
       }
     </script>
   </body>
