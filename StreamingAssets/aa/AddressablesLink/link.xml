@@ -64,6 +64,7 @@
     <type fullname="HomeStationExerciseListResultSource" preserve="all" />
     <type fullname="HomeStationExerciseListSelector" preserve="all" />
     <type fullname="InfoCornerService" preserve="all" />
+    <type fullname="InputMethodService" preserve="all" />
     <type fullname="InputSwitcher" preserve="all" />
     <type fullname="InscriptionObject" preserve="all" />
     <type fullname="InteractableFocus" preserve="all" />
@@ -114,6 +115,8 @@
     <type fullname="OnMouseDownWithEvent" preserve="all" />
     <type fullname="Outliner" preserve="all" />
     <type fullname="OutlineService" preserve="all" />
+    <type fullname="PauseBackground" preserve="all" />
+    <type fullname="PauseService" preserve="all" />
     <type fullname="Player.Cillian.BottomUI.BottomUI" preserve="all" />
     <type fullname="Player.Cillian.Cillian" preserve="all" />
     <type fullname="Player.Cillian.CillianIcons" preserve="all" />
@@ -259,6 +262,9 @@
     <type fullname="TaskHardnessPair" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/AbstractSize" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/DeviceUISize" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="JsCursorLockHandler" preserve="all" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.Cinemachine3rdPersonFollow" preserve="all" />

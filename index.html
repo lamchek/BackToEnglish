@@ -23,6 +23,7 @@
         <div id="unity-build-title">English H</div>
       </div>
     </div>
+    <script src='JsCursorLockChangeHandler.js'></script>
     <script>
 
       var container = document.querySelector("#unity-container");
@@ -101,6 +102,18 @@
 
       loadingBar.style.display = "block";
 
+      document.addEventListener("pointerlockchange", lockChangeAlert, false);
+
+      function lockChangeAlert() {
+        if (document.pointerLockElement === canvas) {
+          console.log("The pointer lock status is now locked");
+          // Do something useful in response
+        } else {
+          console.log("The pointer lock status is now unlocked");
+          // Do something useful in response
+        }
+      }
+      
       var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
