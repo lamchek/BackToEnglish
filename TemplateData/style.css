@@ -39,7 +39,6 @@ body { padding: 0; margin: 0; background: #000000 }
 }
 
 body {
-    background: #87beff;
     color: #222;
     font: 1em "Anton", sans-serif;
     line-height: 1.5;
@@ -326,3 +325,4 @@ body {
         transform: scale(1);
         visibility: visible;
     }
+}
