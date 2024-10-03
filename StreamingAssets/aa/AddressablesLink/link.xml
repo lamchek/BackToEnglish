@@ -79,7 +79,9 @@
     <type fullname="LessonExerciseProvider" preserve="all" />
     <type fullname="LessonExerciseSwitcher" preserve="all" />
     <type fullname="LessonInfo" preserve="all" />
+    <type fullname="LessonScrollHandler" preserve="all" />
     <type fullname="LessonSelector" preserve="all" />
+    <type fullname="LessonSelectorUI" preserve="all" />
     <type fullname="LessonsList" preserve="all" />
     <type fullname="LessonsPanel" preserve="all" />
     <type fullname="LessonTableInteractable" preserve="all" />
@@ -223,6 +225,7 @@
     <type fullname="ChooseOptionsUI/Template" preserve="nothing" serialized="true" />
     <type fullname="CillianBanners/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
     <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
+    <type fullname="LessonInfo/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="LessonInfo/LessonItem" preserve="nothing" serialized="true" />
     <type fullname="LibraryDeepTextItem/LibraryDeepTextReferenceItem" preserve="nothing" serialized="true" />
     <type fullname="Player.Cillian.CillianIcons/IconItem" preserve="nothing" serialized="true" />
@@ -462,7 +465,9 @@
     <type fullname="UnityEngine.UIElements.StyleSheets.Dimension" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UIElements.StyleSheets.ScalableImage" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UIElements.StyleValueHandle" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.TemplateAsset" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UIElements.VisualElementAsset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.VisualTreeAsset/UsingEntry" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
