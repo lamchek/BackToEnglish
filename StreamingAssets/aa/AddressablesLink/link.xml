@@ -102,6 +102,12 @@
     <type fullname="ListenChillInteractable" preserve="all" />
     <type fullname="ListenChillPoint" preserve="all" />
     <type fullname="ListenFlyDataHolder" preserve="all" />
+    <type fullname="ListenFlyDeepTextReferenceDataList" preserve="all" />
+    <type fullname="ListenFlyDeepTextScriptable" preserve="all" />
+    <type fullname="ListenFlyInteractableDataHolder" preserve="all" />
+    <type fullname="ListenFlyPlayPauseWithTranslate" preserve="all" />
+    <type fullname="ListenFlySubtitles" preserve="all" />
+    <type fullname="ListenFlyTextLoader" preserve="all" />
     <type fullname="ListeningVisualizer" preserve="all" />
     <type fullname="ListenTask" preserve="all" />
     <type fullname="MainCamera" preserve="all" />
@@ -150,6 +156,7 @@
     <type fullname="RepeatTask" preserve="all" />
     <type fullname="RepeatVisualizer" preserve="all" />
     <type fullname="Results.LibraryResultSource" preserve="all" />
+    <type fullname="Results.ListenFlyResultSource" preserve="all" />
     <type fullname="Results.RandomExerciseResultSource" preserve="all" />
     <type fullname="Results.ResultBox.BaseResultBox" preserve="all" />
     <type fullname="ResultScriptable" preserve="all" />
@@ -228,6 +235,7 @@
     <type fullname="LessonInfo/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="LessonInfo/LessonItem" preserve="nothing" serialized="true" />
     <type fullname="LibraryDeepTextItem/LibraryDeepTextReferenceItem" preserve="nothing" serialized="true" />
+    <type fullname="ListenFlyDeepTextReferenceData" preserve="nothing" serialized="true" />
     <type fullname="Player.Cillian.CillianIcons/IconItem" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
     <type fullname="SplineHolderMain/SplineItem" preserve="nothing" serialized="true" />
@@ -301,9 +309,11 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[WordDataListScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.AudioClip]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseListLocal]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ListenFlyDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[FontStyle]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null">
@@ -465,9 +475,7 @@
     <type fullname="UnityEngine.UIElements.StyleSheets.Dimension" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UIElements.StyleSheets.ScalableImage" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UIElements.StyleValueHandle" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UIElements.TemplateAsset" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UIElements.VisualElementAsset" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UIElements.VisualTreeAsset/UsingEntry" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
