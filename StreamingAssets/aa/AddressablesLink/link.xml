@@ -25,7 +25,7 @@
     <type fullname="ChooseOptionsTmp" preserve="all" />
     <type fullname="ChooseOptionsUI" preserve="all" />
     <type fullname="CillianActionBar" preserve="all" />
-    <type fullname="CillianAdaptive" preserve="all" />
+    <type fullname="CillianAdaptiveOrientation" preserve="all" />
     <type fullname="CillianBanners" preserve="all" />
     <type fullname="CillianIntro" preserve="all" />
     <type fullname="CillianLight" preserve="all" />
@@ -39,6 +39,7 @@
     <type fullname="CursorLocker" preserve="all" />
     <type fullname="DisableOnAwake" preserve="all" />
     <type fullname="DrawRay" preserve="all" />
+    <type fullname="ExampleUI" preserve="all" />
     <type fullname="ExerciseListItems" preserve="all" />
     <type fullname="ExerciseListLocal" preserve="all" />
     <type fullname="ExerciseMonitor" preserve="all" />
@@ -50,7 +51,7 @@
     <type fullname="FirstPersonCameraController" preserve="all" />
     <type fullname="FollowToTarget" preserve="all" />
     <type fullname="FollowToTargetWithRigidbody" preserve="all" />
-    <type fullname="FontStyle" preserve="all" />
+    <type fullname="Fonts.FontStyle" preserve="all" />
     <type fullname="FontStyleService" preserve="all" />
     <type fullname="FPSCounter" preserve="all" />
     <type fullname="FpsCounterSwitcher" preserve="all" />
@@ -70,6 +71,7 @@
     <type fullname="InteractableFocus" preserve="all" />
     <type fullname="InteractableLayerList" preserve="all" />
     <type fullname="InteractableObjectNew" preserve="all" />
+    <type fullname="InteractablePoint" preserve="all" />
     <type fullname="InteractableSimple" preserve="all" />
     <type fullname="Keyboard3d" preserve="all" />
     <type fullname="LessonContentSwitcher" preserve="all" />
@@ -99,11 +101,11 @@
     <type fullname="LibrarySkillAccruer" preserve="all" />
     <type fullname="LibrarySpelling" preserve="all" />
     <type fullname="LibraryTitle" preserve="all" />
+    <type fullname="ListenChillDeepTextScriptable" preserve="all" />
     <type fullname="ListenChillInteractable" preserve="all" />
     <type fullname="ListenChillPoint" preserve="all" />
     <type fullname="ListenFlyDataHolder" preserve="all" />
     <type fullname="ListenFlyDeepTextReferenceDataList" preserve="all" />
-    <type fullname="ListenFlyDeepTextScriptable" preserve="all" />
     <type fullname="ListenFlyInteractableDataHolder" preserve="all" />
     <type fullname="ListenFlyPlayPauseWithTranslate" preserve="all" />
     <type fullname="ListenFlySubtitles" preserve="all" />
@@ -213,6 +215,8 @@
     <type fullname="UIVisualService" preserve="all" />
     <type fullname="UserIdCorner" preserve="all" />
     <type fullname="UserQualitySettings" preserve="all" />
+    <type fullname="Visualizer" preserve="all" />
+    <type fullname="VisualizerService" preserve="all" />
     <type fullname="WordBrick" preserve="all" />
     <type fullname="WordDataListScriptable" preserve="all" />
     <type fullname="WordSpawner" preserve="all" />
@@ -274,6 +278,7 @@
     <type fullname="TaskHardnessPair" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/AbstractSize" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/DeviceUISize" preserve="nothing" serialized="true" />
+    <type fullname="Visualizer/VisualizerConfig" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="JsCursorLockHandler" preserve="all" />
@@ -313,8 +318,8 @@
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseListLocal]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ListenFlyDeepTextScriptable]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[FontStyle]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ListenChillDeepTextScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[Fonts.FontStyle]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
