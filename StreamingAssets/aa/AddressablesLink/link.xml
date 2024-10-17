@@ -8,6 +8,7 @@
     <type fullname="AdjustableCameraAnglesScriptable" preserve="all" />
     <type fullname="AdjustablePlayerCameraRoot" preserve="all" />
     <type fullname="Ambients" preserve="all" />
+    <type fullname="ASRMobile" preserve="all" />
     <type fullname="AudioEffects" preserve="all" />
     <type fullname="AudioPlayer" preserve="all" />
     <type fullname="AudioService" preserve="all" />
@@ -20,7 +21,6 @@
     <type fullname="BricksSpawner" preserve="all" />
     <type fullname="ButtonColliderWithoutMesh" preserve="all" />
     <type fullname="CharacteristicSettings" preserve="all" />
-    <type fullname="CheckMicrophoneMode" preserve="all" />
     <type fullname="ChooseCorrectOption" preserve="all" />
     <type fullname="ChooseOptionsTmp" preserve="all" />
     <type fullname="ChooseOptionsUI" preserve="all" />
@@ -114,6 +114,9 @@
     <type fullname="ListenTask" preserve="all" />
     <type fullname="MainCamera" preserve="all" />
     <type fullname="MainPlayer" preserve="all" />
+    <type fullname="MainScene.UI.Windows.OneActionWindow" preserve="all" />
+    <type fullname="MainScene.UI.Windows.SpeakingWindow" preserve="all" />
+    <type fullname="MainScene.UI.Windows.Windows" preserve="all" />
     <type fullname="MainSceneEntryPoint" preserve="all" />
     <type fullname="MechanicSelectorUI" preserve="all" />
     <type fullname="MechanicsInfoScriptable" preserve="all" />
@@ -125,6 +128,7 @@
     <type fullname="OnMouseDownWithEvent" preserve="all" />
     <type fullname="Outliner" preserve="all" />
     <type fullname="OutlineService" preserve="all" />
+    <type fullname="PatreonTogglesUI" preserve="all" />
     <type fullname="PauseBackground" preserve="all" />
     <type fullname="PauseDoc" preserve="all" />
     <type fullname="PauseService" preserve="all" />
@@ -154,6 +158,9 @@
     <type fullname="ReadCheckTextLoader" preserve="all" />
     <type fullname="ReadingListeningSettings" preserve="all" />
     <type fullname="ReadingTask" preserve="all" />
+    <type fullname="Recognizer" preserve="all" />
+    <type fullname="RecognizerSelector" preserve="all" />
+    <type fullname="RecognizeStats" preserve="all" />
     <type fullname="RenderBannersLibrary" preserve="all" />
     <type fullname="RepeatTask" preserve="all" />
     <type fullname="RepeatVisualizer" preserve="all" />
@@ -198,18 +205,19 @@
     <type fullname="SkillsMenuService" preserve="all" />
     <type fullname="SkillsMenuUI" preserve="all" />
     <type fullname="SmoothDampFollowing" preserve="all" />
+    <type fullname="SpeakingModeIcon" preserve="all" />
     <type fullname="Spelling" preserve="all" />
     <type fullname="SplineFollowing" preserve="all" />
     <type fullname="SplineHolderMain" preserve="all" />
     <type fullname="SplineHolderScene" preserve="all" />
     <type fullname="SplineService" preserve="all" />
-    <type fullname="SwitchMicrophoneMode" preserve="all" />
     <type fullname="TaskFactory" preserve="all" />
     <type fullname="TestTouchPointerPress" preserve="all" />
     <type fullname="TextMeshProColors" preserve="all" />
     <type fullname="TextMeshProOpacity" preserve="all" />
     <type fullname="TextUI" preserve="all" />
     <type fullname="TranscriptionObject" preserve="all" />
+    <type fullname="TranslatesScriptable" preserve="all" />
     <type fullname="TryLoadWordVariants" preserve="all" />
     <type fullname="UISizeSettingsScriptable" preserve="all" />
     <type fullname="UIVisualService" preserve="all" />
@@ -217,6 +225,7 @@
     <type fullname="UserQualitySettings" preserve="all" />
     <type fullname="Visualizer" preserve="all" />
     <type fullname="VisualizerService" preserve="all" />
+    <type fullname="WindowBackground" preserve="all" />
     <type fullname="WordBrick" preserve="all" />
     <type fullname="WordDataListScriptable" preserve="all" />
     <type fullname="WordSpawner" preserve="all" />
@@ -276,6 +285,8 @@
     <type fullname="SkillSet" preserve="nothing" serialized="true" />
     <type fullname="TaskHardness" preserve="nothing" serialized="true" />
     <type fullname="TaskHardnessPair" preserve="nothing" serialized="true" />
+    <type fullname="TranslatesScriptable/LanguageText" preserve="nothing" serialized="true" />
+    <type fullname="TranslatesScriptable/TranslatesItem" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/AbstractSize" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/DeviceUISize" preserve="nothing" serialized="true" />
     <type fullname="Visualizer/VisualizerConfig" preserve="nothing" serialized="true" />
@@ -298,11 +309,12 @@
     <type fullname="Cinemachine.NoiseSettings/TransformNoiseParams" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Recognissimo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ASRDesktop" preserve="all" />
     <type fullname="Recognissimo.Components.MicrophoneSpeechSource" preserve="all" />
     <type fullname="Recognissimo.Components.SpeechRecognizer" preserve="all" />
     <type fullname="Recognissimo.Components.StreamingAssetsLanguageModelProvider" preserve="all" />
+    <type fullname="Recognissimo.EstradaMicrophoneBridge" preserve="all" />
     <type fullname="Recognissimo.Samples.SpeechRecognizerExample.MySpeechRecognizerExample" preserve="all" />
-    <type fullname="RecognissimoService" preserve="all" />
     <type fullname="Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings" preserve="nothing" serialized="true" />
     <type fullname="Recognissimo.Components.PartialResultEvent" preserve="nothing" serialized="true" />
     <type fullname="Recognissimo.Components.ResultEvent" preserve="nothing" serialized="true" />
