@@ -8,6 +8,7 @@
     <type fullname="AdjustableCameraAnglesScriptable" preserve="all" />
     <type fullname="AdjustablePlayerCameraRoot" preserve="all" />
     <type fullname="Ambients" preserve="all" />
+    <type fullname="ASRDesktop" preserve="all" />
     <type fullname="ASRMobile" preserve="all" />
     <type fullname="AudioEffects" preserve="all" />
     <type fullname="AudioPlayer" preserve="all" />
@@ -123,6 +124,7 @@
     <type fullname="MenuController" preserve="all" />
     <type fullname="MessageService" preserve="all" />
     <type fullname="MessageUI" preserve="all" />
+    <type fullname="MicrophoneIconWarningAnimator" preserve="all" />
     <type fullname="MonitorAnimator" preserve="all" />
     <type fullname="MoveToContentTarget" preserve="all" />
     <type fullname="OnMouseDownWithEvent" preserve="all" />
@@ -161,6 +163,7 @@
     <type fullname="Recognizer" preserve="all" />
     <type fullname="RecognizerSelector" preserve="all" />
     <type fullname="RecognizeStats" preserve="all" />
+    <type fullname="Recorder" preserve="all" />
     <type fullname="RenderBannersLibrary" preserve="all" />
     <type fullname="RepeatTask" preserve="all" />
     <type fullname="RepeatVisualizer" preserve="all" />
@@ -219,8 +222,10 @@
     <type fullname="TranscriptionObject" preserve="all" />
     <type fullname="TranslatesScriptable" preserve="all" />
     <type fullname="TryLoadWordVariants" preserve="all" />
+    <type fullname="UIAnimationHelper" preserve="all" />
     <type fullname="UISizeSettingsScriptable" preserve="all" />
     <type fullname="UIVisualService" preserve="all" />
+    <type fullname="UserConfirmer" preserve="all" />
     <type fullname="UserIdCorner" preserve="all" />
     <type fullname="UserQualitySettings" preserve="all" />
     <type fullname="Visualizer" preserve="all" />
@@ -309,13 +314,11 @@
     <type fullname="Cinemachine.NoiseSettings/TransformNoiseParams" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Recognissimo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="ASRDesktop" preserve="all" />
-    <type fullname="Recognissimo.Components.MicrophoneSpeechSource" preserve="all" />
+    <type fullname="Recognissimo.Components.RecorderAudioClipSpeechSource" preserve="all" />
     <type fullname="Recognissimo.Components.SpeechRecognizer" preserve="all" />
     <type fullname="Recognissimo.Components.StreamingAssetsLanguageModelProvider" preserve="all" />
-    <type fullname="Recognissimo.EstradaMicrophoneBridge" preserve="all" />
+    <type fullname="Recognissimo.EstradaOriginalMicrophone" preserve="all" />
     <type fullname="Recognissimo.Samples.SpeechRecognizerExample.MySpeechRecognizerExample" preserve="all" />
-    <type fullname="Recognissimo.Components.MicrophoneSpeechSource/RecordingSettings" preserve="nothing" serialized="true" />
     <type fullname="Recognissimo.Components.PartialResultEvent" preserve="nothing" serialized="true" />
     <type fullname="Recognissimo.Components.ResultEvent" preserve="nothing" serialized="true" />
     <type fullname="Recognissimo.Components.SpeechRecognizer/SpeechRecognizerSettings" preserve="nothing" serialized="true" />
