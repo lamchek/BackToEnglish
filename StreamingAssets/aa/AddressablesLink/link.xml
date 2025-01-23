@@ -142,7 +142,6 @@
     <type fullname="LibrarySpelling" preserve="all" />
     <type fullname="LibraryTitle" preserve="all" />
     <type fullname="LibraryWindow" preserve="all" />
-    <type fullname="ListenChillDeepTextScriptable" preserve="all" />
     <type fullname="ListenTask" preserve="all" />
     <type fullname="LookAtTargetAdaptive" preserve="all" />
     <type fullname="MainCamera" preserve="all" />
@@ -399,7 +398,6 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[WordDataListScriptable]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.AudioClip]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[Fonts.FontStyle]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[MainScene.Services.ContentRoot.LanguageLevelContent]" preserve="nothing" serialized="true" />
