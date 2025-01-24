@@ -319,7 +319,6 @@
     <type fullname="ChooseOptionsUI/Template" preserve="nothing" serialized="true" />
     <type fullname="CillianBanners/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
     <type fullname="CustomUI.RadialProgress/UxmlFactory" preserve="nothing" serialized="true" />
-    <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
     <type fullname="FontStyleService/FontStyleObject" preserve="nothing" serialized="true" />
     <type fullname="HintService/HintIcon" preserve="nothing" serialized="true" />
     <type fullname="LanguageText" preserve="nothing" serialized="true" />
@@ -361,6 +360,7 @@
     <type fullname="LessonData/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="LessonData/LessonItem" preserve="nothing" serialized="true" />
     <type fullname="MainScene.Services.ContentRoot.RepeatPointInfo" preserve="nothing" serialized="true" />
+    <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
