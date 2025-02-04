@@ -307,6 +307,7 @@
     <type fullname="WordData" preserve="nothing" serialized="true" />
     <type fullname="WordDataListScriptable/WordDataWrapper" preserve="nothing" serialized="true" />
     <type fullname="SentenceTranslate" preserve="nothing" serialized="true" />
+    <type fullname="DeepText/DeepTextTranslate" preserve="nothing" serialized="true" />
     <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
     <type fullname="AdvertItem" preserve="nothing" serialized="true" />
