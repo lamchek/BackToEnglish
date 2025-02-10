@@ -12,6 +12,8 @@
     <type fullname="AdvertisementHolder" preserve="all" />
     <type fullname="AdvertisementUI" preserve="all" />
     <type fullname="AdvertisementWindow" preserve="all" />
+    <type fullname="AdvertItemScriptable" preserve="all" />
+    <type fullname="AdvertLanguageList" preserve="all" />
     <type fullname="AIButtonUI" preserve="all" />
     <type fullname="AIStateService" preserve="all" />
     <type fullname="Ambients" preserve="all" />
@@ -311,7 +313,7 @@
     <type fullname="DeepText/DeepTextTranslate" preserve="nothing" serialized="true" />
     <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
-    <type fullname="AdvertItem" preserve="nothing" serialized="true" />
+    <type fullname="AdvertisementHolder/AdvertItemListBox" preserve="nothing" serialized="true" />
     <type fullname="Ambients/AmbientAudio" preserve="nothing" serialized="true" />
     <type fullname="AudioEffects/AudioEffect" preserve="nothing" serialized="true" />
     <type fullname="AudioService/Group" preserve="nothing" serialized="true" />
@@ -364,6 +366,7 @@
     <type fullname="LessonData/LessonItem" preserve="nothing" serialized="true" />
     <type fullname="MainScene.Services.ContentRoot.RepeatPointInfo" preserve="nothing" serialized="true" />
     <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
+    <type fullname="AdvertItemScriptable/SpriteItem" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -402,6 +405,8 @@
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[WordDataListScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[AdvertItemScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[AdvertLanguageList]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[Fonts.FontStyle]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[MainScene.Services.ContentRoot.LanguageLevelContent]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseList]" preserve="nothing" serialized="true" />
