@@ -45,6 +45,7 @@
     <type fullname="CillianSceneSettings" preserve="all" />
     <type fullname="CillianTargetAdaptiveX" preserve="all" />
     <type fullname="CillianTargetPoint" preserve="all" />
+    <type fullname="CillianTranslateButton" preserve="all" />
     <type fullname="CloudService" preserve="all" />
     <type fullname="ColorLookupEffects" preserve="all" />
     <type fullname="ComboEffects" preserve="all" />
@@ -212,6 +213,7 @@
     <type fullname="RepeatPointDataHolder" preserve="all" />
     <type fullname="RepeatPointDeepTextScriptable" preserve="all" />
     <type fullname="RepeatPointSceneLoader" preserve="all" />
+    <type fullname="RepeatPointsContentSwitcher" preserve="all" />
     <type fullname="RepeatPointTextItem" preserve="all" />
     <type fullname="RepeatPointTextLoader" preserve="all" />
     <type fullname="RepeatTask" preserve="all" />
@@ -270,7 +272,6 @@
     <type fullname="TaskFactory" preserve="all" />
     <type fullname="TeacherMode" preserve="all" />
     <type fullname="TeacherModeUI" preserve="all" />
-    <type fullname="TestUnityEvent" preserve="all" />
     <type fullname="TextMeshProColors" preserve="all" />
     <type fullname="TextMeshProOpacity" preserve="all" />
     <type fullname="TextUI" preserve="all" />
