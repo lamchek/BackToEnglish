@@ -41,6 +41,7 @@
     <type fullname="ChooseOptionsTmp" preserve="all" />
     <type fullname="ChooseOptionsUI" preserve="all" />
     <type fullname="CillianBanners" preserve="all" />
+    <type fullname="CillianCameraTextureCleaner" preserve="all" />
     <type fullname="CillianInfoUI" preserve="all" />
     <type fullname="CillianLoaderUI" preserve="all" />
     <type fullname="CillianOneButton" preserve="all" />
