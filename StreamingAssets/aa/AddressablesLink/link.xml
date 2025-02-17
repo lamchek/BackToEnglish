@@ -328,6 +328,7 @@
     <type fullname="LanguageText" preserve="nothing" serialized="true" />
     <type fullname="LibrarySettings/LanguageLevelTranslate" preserve="nothing" serialized="true" />
     <type fullname="LibrarySettings/ResultAvailabilityMechanic" preserve="nothing" serialized="true" />
+    <type fullname="LoadAssetOperation`1[Fonts.FontStyle]" preserve="nothing" serialized="true" />
     <type fullname="MainScene.Services.ContentRoot.ContentRoot/LanguageLevelContentItemReference" preserve="nothing" serialized="true" />
     <type fullname="MechanicsInfoScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="MechanicsInfoScriptable/MechanicInfo" preserve="nothing" serialized="true" />
