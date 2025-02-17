@@ -62,7 +62,6 @@
     <type fullname="EngLevelButton" preserve="all" />
     <type fullname="EngLevelSelector" preserve="all" />
     <type fullname="EnterCredentials" preserve="all" />
-    <type fullname="EntranceToIsland" preserve="all" />
     <type fullname="EventSystemService" preserve="all" />
     <type fullname="ExampleUI" preserve="all" />
     <type fullname="ExerciseList" preserve="all" />
@@ -268,7 +267,6 @@
     <type fullname="SplineFollowing" preserve="all" />
     <type fullname="SplineHolderMain" preserve="all" />
     <type fullname="SplineService" preserve="all" />
-    <type fullname="StairsPosition" preserve="all" />
     <type fullname="StartCamera" preserve="all" />
     <type fullname="SwitchStateCollider" preserve="all" />
     <type fullname="TaskAudioGreetings" preserve="all" />
