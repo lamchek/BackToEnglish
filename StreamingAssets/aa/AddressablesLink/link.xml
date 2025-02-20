@@ -33,6 +33,7 @@
     <type fullname="BrickAnimated" preserve="all" />
     <type fullname="BrickSoundEffect" preserve="all" />
     <type fullname="BricksSpawner" preserve="all" />
+    <type fullname="BuildData" preserve="all" />
     <type fullname="ButtonColliderWithoutMesh" preserve="all" />
     <type fullname="ChangeUserButton" preserve="all" />
     <type fullname="ChangeUserConfirmation" preserve="all" />
