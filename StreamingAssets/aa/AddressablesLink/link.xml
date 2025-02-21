@@ -33,7 +33,6 @@
     <type fullname="BrickAnimated" preserve="all" />
     <type fullname="BrickSoundEffect" preserve="all" />
     <type fullname="BricksSpawner" preserve="all" />
-    <type fullname="BuildData" preserve="all" />
     <type fullname="ButtonColliderWithoutMesh" preserve="all" />
     <type fullname="ChangeUserButton" preserve="all" />
     <type fullname="ChangeUserConfirmation" preserve="all" />
@@ -307,9 +306,9 @@
     <type fullname="AnswerData" preserve="nothing" serialized="true" />
     <type fullname="Exercise" preserve="nothing" serialized="true" />
     <type fullname="TaskData" preserve="nothing" serialized="true" />
+    <type fullname="SentenceTranslate" preserve="nothing" serialized="true" />
     <type fullname="WordData" preserve="nothing" serialized="true" />
     <type fullname="WordDataListScriptable/WordDataWrapper" preserve="nothing" serialized="true" />
-    <type fullname="SentenceTranslate" preserve="nothing" serialized="true" />
     <type fullname="DeepText/DeepTextTranslate" preserve="nothing" serialized="true" />
     <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
