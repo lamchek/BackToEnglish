@@ -284,7 +284,6 @@
     <type fullname="UIAnimationHelper" preserve="all" />
     <type fullname="UISizeSettingsScriptable" preserve="all" />
     <type fullname="UIVisualService" preserve="all" />
-    <type fullname="UseMaterialInstance" preserve="all" />
     <type fullname="UserIdCorner" preserve="all" />
     <type fullname="UserMenu" preserve="all" />
     <type fullname="UserMenuRefreshPage" preserve="all" />
