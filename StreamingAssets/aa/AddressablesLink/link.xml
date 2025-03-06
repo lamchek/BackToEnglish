@@ -300,6 +300,7 @@
     <type fullname="DeepText/DeepTextTranslate" preserve="nothing" serialized="true" />
     <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
+    <type fullname="AdvertItemScriptable/SpriteItem" preserve="nothing" serialized="true" />
     <type fullname="AdvertisementHolder/AdvertItemListBox" preserve="nothing" serialized="true" />
     <type fullname="Ambients/AmbientAudio" preserve="nothing" serialized="true" />
     <type fullname="AudioEffects/AudioEffect" preserve="nothing" serialized="true" />
@@ -354,7 +355,6 @@
     <type fullname="LessonData/LessonItem" preserve="nothing" serialized="true" />
     <type fullname="MainScene.Services.ContentRoot.RepeatPointInfo" preserve="nothing" serialized="true" />
     <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
-    <type fullname="AdvertItemScriptable/SpriteItem" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
