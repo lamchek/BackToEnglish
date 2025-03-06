@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="stylesheet" type="text/css" href="TemplateData/loading-bar.css"/>
+    <link rel="stylesheet" href="TemplateData/spinner.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -17,15 +18,16 @@
             <div id="logo"></div>
           </div>
           <div id="progress-box">
-            <div id="ld-progress-bar" class="ldBar"
-                 data-type="stroke"
-                 data-path="M0 7 L100 7"
-                 data-stroke-width="2"
-                 data-stroke-trail="1"
-                 data-value="0"
-                 style="width:512px;height:113px"
-                 data-preset="line"
-            ></div>
+            <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+<!--            <div id="ld-progress-bar" class="ldBar"-->
+<!--                 data-type="stroke"-->
+<!--                 data-path="M0 7 L100 7"-->
+<!--                 data-stroke-width="2"-->
+<!--                 data-stroke-trail="1"-->
+<!--                 data-value="0"-->
+<!--                 style="width:512px;height:113px"-->
+<!--                 data-preset="line"-->
+<!--            ></div>-->
           </div>
         </div>
       </div>
@@ -38,16 +40,16 @@
     </div>
     <script src='JsCursorLockChangeHandler.js'></script>
     <script src='JsSwitchAudioContext.js'></script>
-    <script type="text/javascript" src="loading-bar.js"></script>
+<!--    <script type="text/javascript" src="loading-bar.js"></script>-->
     <script>
 
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
       var loadingScreen = document.querySelector("#unity-custom-loading-screen");
-      var barElement = loadingScreen.querySelector("#ld-progress-bar")
+      // var barElement = loadingScreen.querySelector("#ld-progress-bar");
       var warningBanner = document.querySelector("#unity-warning");
       
-      var bar = new ldBar(barElement);
+      // var bar = new ldBar(barElement);
 
       // Shows a temporary message banner/ribbon for a few seconds, or
       // a permanent error message on top of the canvas if type=='error'.
@@ -82,7 +84,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "English H",
-        productVersion: "0.1.0",
+        productVersion: "0.1.1",
         showBanner: unityShowBanner,
       };
 
@@ -183,14 +185,13 @@
           console.log("onePoint: " + onePoint.toFixed(3))
           loadingProgress += onePoint;
           console.log("loadingProgress < 90  (" + loadingProgress + ") ");
-          bar.set(loadingProgress, true);
+          // bar.set(loadingProgress, true);
         }
         else if (loadingProgress < 95)
         {
           loadingProgress = 90 + 0.5 * (realProgressByOne * 100 - 90);
           console.log("loadingProgress < 95  (" + loadingProgress + ") ");
-          bar.set(loadingProgress, true);
-          
+          // bar.set(loadingProgress, true);
         }
         else if (loadingProgress < 100)
         {
@@ -198,7 +199,7 @@
           console.log("onePoint: " + onePoint.toFixed(3))
           loadingProgress += onePoint;
           console.log("loadingProgress <= 100  (" + loadingProgress + ") ");
-          bar.set(loadingProgress, true);
+          // bar.set(loadingProgress, true);
         }
         else 
         {

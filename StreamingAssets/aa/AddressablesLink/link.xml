@@ -40,7 +40,6 @@
     <type fullname="ChooseCorrectOption" preserve="all" />
     <type fullname="ChooseOptionsTmp" preserve="all" />
     <type fullname="ChooseOptionsUI" preserve="all" />
-    <type fullname="CillianBanners" preserve="all" />
     <type fullname="CillianCameraTextureCleaner" preserve="all" />
     <type fullname="CillianInfoUI" preserve="all" />
     <type fullname="CillianLoaderUI" preserve="all" />
@@ -104,7 +103,6 @@
     <type fullname="InfoZoneDataHolder" preserve="all" />
     <type fullname="InputMethodService" preserve="all" />
     <type fullname="InputSwitcher" preserve="all" />
-    <type fullname="InscriptionObject" preserve="all" />
     <type fullname="InteractableFocusCone" preserve="all" />
     <type fullname="InteractableLayerList" preserve="all" />
     <type fullname="InteractableObjectNew" preserve="all" />
@@ -138,6 +136,7 @@
     <type fullname="LibraryGlassTextTeacher" preserve="all" />
     <type fullname="LibraryHints" preserve="all" />
     <type fullname="LibraryListening" preserve="all" />
+    <type fullname="LibraryMenu3d" preserve="all" />
     <type fullname="LibraryPicoSentence" preserve="all" />
     <type fullname="LibraryPicoWords" preserve="all" />
     <type fullname="LibraryReadAloud" preserve="all" />
@@ -169,7 +168,6 @@
     <type fullname="MessageUI" preserve="all" />
     <type fullname="MoveToLessonContentTarget" preserve="all" />
     <type fullname="OnMouseDownWithEvent" preserve="all" />
-    <type fullname="Other.Rotator" preserve="all" />
     <type fullname="Outliner" preserve="all" />
     <type fullname="OutlineService" preserve="all" />
     <type fullname="PaintUICanvas" preserve="all" />
@@ -183,21 +181,17 @@
     <type fullname="Player.CillianSpace.CillianFactory" preserve="all" />
     <type fullname="Player.CillianSpace.CillianIcons" preserve="all" />
     <type fullname="Player.CillianSpace.CillianTargetsHolder" preserve="all" />
-    <type fullname="Player.CillianSpace.CillianTimer3d" preserve="all" />
     <type fullname="Player.CillianSpace.MainUI" preserve="all" />
     <type fullname="PlayerCameraEffects" preserve="all" />
     <type fullname="PlayerDataHolder" preserve="all" />
     <type fullname="PlayerSettingsNamespace.PlayerSettingsScriptable" preserve="all" />
     <type fullname="PointerService" preserve="all" />
-    <type fullname="PointLeftRight" preserve="all" />
-    <type fullname="PointRotate" preserve="all" />
     <type fullname="PostEffects" preserve="all" />
     <type fullname="PostProcessingRoot" preserve="all" />
     <type fullname="PutInCorrectOrder" preserve="all" />
     <type fullname="QualityMaster" preserve="all" />
     <type fullname="QualitySettingsScriptable" preserve="all" />
     <type fullname="RandomExercise" preserve="all" />
-    <type fullname="RandomPoint" preserve="all" />
     <type fullname="ReactionService" preserve="all" />
     <type fullname="ReadCheckInteractable" preserve="all" />
     <type fullname="ReadCheckMenu" preserve="all" />
@@ -219,7 +213,6 @@
     <type fullname="RepeatPointTextItem" preserve="all" />
     <type fullname="RepeatPointTextLoader" preserve="all" />
     <type fullname="RepeatTask" preserve="all" />
-    <type fullname="RepeatVisualizer" preserve="all" />
     <type fullname="Results.LibraryResultSource" preserve="all" />
     <type fullname="Results.RandomExerciseResultSource" preserve="all" />
     <type fullname="Results.RepeatPointResultSource" preserve="all" />
@@ -243,7 +236,6 @@
     <type fullname="SetStartStateHelper" preserve="all" />
     <type fullname="Settings" preserve="all" />
     <type fullname="Settings_SO.Player.Characteristics.Characteristic" preserve="all" />
-    <type fullname="Settings_SO.Player.Cillian.CillianLoader" preserve="all" />
     <type fullname="Settings_SO.Services.RenderScaler" preserve="all" />
     <type fullname="SettingsUIButton" preserve="all" />
     <type fullname="SimpleBackgroundReplacer" preserve="all" />
@@ -274,26 +266,23 @@
     <type fullname="TeacherMode" preserve="all" />
     <type fullname="TeacherModeUI" preserve="all" />
     <type fullname="TextMeshProColors" preserve="all" />
-    <type fullname="TextMeshProOpacity" preserve="all" />
     <type fullname="TextUI" preserve="all" />
     <type fullname="TierButton" preserve="all" />
     <type fullname="TierButtonInfoText" preserve="all" />
-    <type fullname="TranscriptionObject" preserve="all" />
     <type fullname="TranslatesScriptable" preserve="all" />
     <type fullname="TryLoadWordVariants" preserve="all" />
     <type fullname="UIAnimationHelper" preserve="all" />
     <type fullname="UISizeSettingsScriptable" preserve="all" />
     <type fullname="UIVisualService" preserve="all" />
     <type fullname="UserIdCorner" preserve="all" />
+    <type fullname="UserLanguages" preserve="all" />
     <type fullname="UserMenu" preserve="all" />
     <type fullname="UserMenuRefreshPage" preserve="all" />
     <type fullname="UserMenuUI" preserve="all" />
     <type fullname="Visualizer" preserve="all" />
     <type fullname="VisualizerService" preserve="all" />
     <type fullname="WindowBackground" preserve="all" />
-    <type fullname="WordBrick" preserve="all" />
     <type fullname="WordDataListScriptable" preserve="all" />
-    <type fullname="WordSpawner" preserve="all" />
     <type fullname="WordVariants" preserve="all" />
     <type fullname="Chunk" preserve="nothing" serialized="true" />
     <type fullname="DeepText" preserve="nothing" serialized="true" />
@@ -320,7 +309,6 @@
     <type fullname="AudioSettingsScriptable/AbstractMiniGame" preserve="nothing" serialized="true" />
     <type fullname="AudioSettingsScriptable/AbstractVoice" preserve="nothing" serialized="true" />
     <type fullname="ChooseOptionsUI/Template" preserve="nothing" serialized="true" />
-    <type fullname="CillianBanners/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
     <type fullname="CustomUI.RadialProgress/UxmlFactory" preserve="nothing" serialized="true" />
     <type fullname="FontStyleService/FontStyleObject" preserve="nothing" serialized="true" />
     <type fullname="HintService/HintIcon" preserve="nothing" serialized="true" />
@@ -359,6 +347,7 @@
     <type fullname="TranslatesScriptable/TranslatesItem" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/AbstractSize" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/DeviceUISize" preserve="nothing" serialized="true" />
+    <type fullname="UserLanguages/LanguageItem" preserve="nothing" serialized="true" />
     <type fullname="DeepTextItem`1/DeepTextReferenceItem[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="DeepTextItem`1/DeepTextReferenceItem[RepeatPointDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="LessonData/LanguageText" preserve="nothing" serialized="true" />
