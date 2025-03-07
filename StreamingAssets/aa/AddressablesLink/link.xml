@@ -322,6 +322,7 @@
     <type fullname="MechanicsInfoScriptable/MechanicInfo" preserve="nothing" serialized="true" />
     <type fullname="PaintUICanvas/ToolBox" preserve="nothing" serialized="true" />
     <type fullname="Player.CillianSpace.CillianIcons/IconItem" preserve="nothing" serialized="true" />
+    <type fullname="Player.CillianSpace.CillianIcons/IconStrItem" preserve="nothing" serialized="true" />
     <type fullname="Player.CillianSpace.CillianTargetsHolder/ActionTargetItem" preserve="nothing" serialized="true" />
     <type fullname="Player.CillianSpace.CillianTargetsHolder/QuadTargetItem" preserve="nothing" serialized="true" />
     <type fullname="PlayerSettingsNamespace.InputSchemePlayerSettings" preserve="nothing" serialized="true" />
