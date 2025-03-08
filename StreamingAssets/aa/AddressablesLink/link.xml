@@ -136,6 +136,7 @@
     <type fullname="LibraryGlassTextTeacher" preserve="all" />
     <type fullname="LibraryHints" preserve="all" />
     <type fullname="LibraryListening" preserve="all" />
+    <type fullname="LibraryMechanicSkipper" preserve="all" />
     <type fullname="LibraryMenu3d" preserve="all" />
     <type fullname="LibraryPicoSentence" preserve="all" />
     <type fullname="LibraryPicoWords" preserve="all" />
@@ -242,16 +243,19 @@
     <type fullname="SimpleTranslateScriptable" preserve="all" />
     <type fullname="SkillAccruer" preserve="all" />
     <type fullname="SkillAccruerTest" preserve="all" />
+    <type fullname="SkillFX" preserve="all" />
     <type fullname="SkillIconWarningAnimator" preserve="all" />
     <type fullname="SkillItemAnimation" preserve="all" />
-    <type fullname="SkillMenuBar" preserve="all" />
     <type fullname="SkillMenuCamera" preserve="all" />
-    <type fullname="SkillMenuControl" preserve="all" />
-    <type fullname="SkillMenuLevel" preserve="all" />
     <type fullname="SkillMenuScore" preserve="all" />
+    <type fullname="Skills_Menu.SkillMenuBar" preserve="all" />
+    <type fullname="Skills_Menu.SkillMenuBattery" preserve="all" />
+    <type fullname="Skills_Menu.SkillMenuControl" preserve="all" />
+    <type fullname="Skills_Menu.SkillMenuIcon" preserve="all" />
+    <type fullname="Skills_Menu.SkillMenuLevel" preserve="all" />
+    <type fullname="Skills_Menu.SkillsMenuService" preserve="all" />
+    <type fullname="Skills_Menu.SkillsMenuUI" preserve="all" />
     <type fullname="SkillsAdditionSettings" preserve="all" />
-    <type fullname="SkillsMenuService" preserve="all" />
-    <type fullname="SkillsMenuUI" preserve="all" />
     <type fullname="SmoothDampFollowing" preserve="all" />
     <type fullname="SpeakingModeIcon" preserve="all" />
     <type fullname="SpeakingWindow" preserve="all" />
