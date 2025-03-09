@@ -214,6 +214,7 @@
     <type fullname="RepeatPointTextItem" preserve="all" />
     <type fullname="RepeatPointTextLoader" preserve="all" />
     <type fullname="RepeatTask" preserve="all" />
+    <type fullname="RestartCredentials" preserve="all" />
     <type fullname="Results.LibraryResultSource" preserve="all" />
     <type fullname="Results.RandomExerciseResultSource" preserve="all" />
     <type fullname="Results.RepeatPointResultSource" preserve="all" />
