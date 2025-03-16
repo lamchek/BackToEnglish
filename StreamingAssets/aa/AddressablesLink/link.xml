@@ -1,5 +1,7 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AccuracyArrow" preserve="all" />
+    <type fullname="AccuracyMeter" preserve="all" />
     <type fullname="ActionButtonService" preserve="all" />
     <type fullname="ActionButtonTextScriptable" preserve="all" />
     <type fullname="ActivityControl" preserve="all" />
@@ -44,10 +46,12 @@
     <type fullname="CillianInfoUI" preserve="all" />
     <type fullname="CillianLoaderUI" preserve="all" />
     <type fullname="CillianOneButton" preserve="all" />
+    <type fullname="CillianRepeatButton" preserve="all" />
     <type fullname="CillianSceneSettings" preserve="all" />
+    <type fullname="CillianSecondButton" preserve="all" />
     <type fullname="CillianTargetAdaptiveX" preserve="all" />
     <type fullname="CillianTargetPoint" preserve="all" />
-    <type fullname="CillianTranslateButton" preserve="all" />
+    <type fullname="CillianThirdButton" preserve="all" />
     <type fullname="CloudService" preserve="all" />
     <type fullname="ColorLookupEffects" preserve="all" />
     <type fullname="ComboEffects" preserve="all" />
@@ -75,6 +79,7 @@
     <type fullname="FirePlaceFx" preserve="all" />
     <type fullname="FireplaceLightSource" preserve="all" />
     <type fullname="FirstPersonCameraController" preserve="all" />
+    <type fullname="Flags" preserve="all" />
     <type fullname="FollowToTarget" preserve="all" />
     <type fullname="FollowToTargetWithRigidbody" preserve="all" />
     <type fullname="Fonts.FontStyle" preserve="all" />
@@ -83,7 +88,9 @@
     <type fullname="FpsCounterSwitcher" preserve="all" />
     <type fullname="FrameUI" preserve="all" />
     <type fullname="FroggyLessonsListHolder" preserve="all" />
+    <type fullname="FroggyLoaderUI" preserve="all" />
     <type fullname="FroggyProgressForOne" preserve="all" />
+    <type fullname="FroggyResultUI" preserve="all" />
     <type fullname="HardnessService" preserve="all" />
     <type fullname="HintService" preserve="all" />
     <type fullname="IdButton" preserve="all" />
@@ -107,24 +114,20 @@
     <type fullname="InteractableLayerList" preserve="all" />
     <type fullname="InteractableObjectNew" preserve="all" />
     <type fullname="InteractableSimple" preserve="all" />
+    <type fullname="ItemSelectorUI" preserve="all" />
     <type fullname="Keyboard3d" preserve="all" />
     <type fullname="LessonContentAnimator" preserve="all" />
     <type fullname="LessonContentSwitcher" preserve="all" />
     <type fullname="LessonData" preserve="all" />
     <type fullname="LessonDataList" preserve="all" />
     <type fullname="LessonEffects" preserve="all" />
-    <type fullname="LessonElevatorTitleTypeCollider" preserve="all" />
     <type fullname="LessonExerciseListDataHolder" preserve="all" />
     <type fullname="LessonExerciseProvider" preserve="all" />
     <type fullname="LessonExerciseSwitcher" preserve="all" />
     <type fullname="Lessons.Info_Monitor.InfoPointCillianDescription" preserve="all" />
     <type fullname="Lessons.Info_Zone.InfoZoneInteractable" preserve="all" />
-    <type fullname="LessonScrollHandler" preserve="all" />
-    <type fullname="LessonSelector" preserve="all" />
-    <type fullname="LessonSelectorUI" preserve="all" />
     <type fullname="LessonsPanel" preserve="all" />
     <type fullname="LessonTableInteractable" preserve="all" />
-    <type fullname="LessonTitle" preserve="all" />
     <type fullname="LibraryBannerUI" preserve="all" />
     <type fullname="LibraryDataHolder" preserve="all" />
     <type fullname="LibraryDeepTextItem" preserve="all" />
@@ -159,6 +162,8 @@
     <type fullname="MainScene.Services.ContentRoot.RepeatPointItemSelector" preserve="all" />
     <type fullname="MainScene.Services.ContentRoot.RepeatPointItemsList" preserve="all" />
     <type fullname="MainScene.Services.ContentRoot.RepeatPointTextSelector" preserve="all" />
+    <type fullname="MainScene.Services.ContentRoot.TongueTwistersPointItem" preserve="all" />
+    <type fullname="MainScene.Services.ContentRoot.TongueTwistersPointItemsList" preserve="all" />
     <type fullname="MainScene.UI.Windows.NeedUpgradeWindow" preserve="all" />
     <type fullname="MainScene.UI.Windows.OneActionWindow" preserve="all" />
     <type fullname="MainScene.UI.Windows.Windows" preserve="all" />
@@ -189,6 +194,10 @@
     <type fullname="PointerService" preserve="all" />
     <type fullname="PostEffects" preserve="all" />
     <type fullname="PostProcessingRoot" preserve="all" />
+    <type fullname="ProgressPath" preserve="all" />
+    <type fullname="ProgressPathData" preserve="all" />
+    <type fullname="ProgressPathPoint" preserve="all" />
+    <type fullname="ProgressPathPointer" preserve="all" />
     <type fullname="PutInCorrectOrder" preserve="all" />
     <type fullname="QualityMaster" preserve="all" />
     <type fullname="QualitySettingsScriptable" preserve="all" />
@@ -219,6 +228,8 @@
     <type fullname="Results.RandomExerciseResultSource" preserve="all" />
     <type fullname="Results.RepeatPointResultSource" preserve="all" />
     <type fullname="Results.ResultBox.BaseResultBox" preserve="all" />
+    <type fullname="Results.TestResultSource" preserve="all" />
+    <type fullname="Results.TongueTwistersPointResultSource" preserve="all" />
     <type fullname="ResultScriptable" preserve="all" />
     <type fullname="RotateFromPointer" preserve="all" />
     <type fullname="RotateToMainCameraWithoutX" preserve="all" />
@@ -227,7 +238,6 @@
     <type fullname="SceneReferenceObject" preserve="all" />
     <type fullname="ScreenSize" preserve="all" />
     <type fullname="ScrollerService" preserve="all" />
-    <type fullname="ScrollerSwitcher" preserve="all" />
     <type fullname="Services.PostEffects.AberrationEffects" preserve="all" />
     <type fullname="Services.PostEffects.BlurEffects" preserve="all" />
     <type fullname="Services.PostEffects.ColorEffects" preserve="all" />
@@ -240,6 +250,7 @@
     <type fullname="Settings_SO.Player.Characteristics.Characteristic" preserve="all" />
     <type fullname="Settings_SO.Services.RenderScaler" preserve="all" />
     <type fullname="SettingsUIButton" preserve="all" />
+    <type fullname="ShowFlagsCutScene" preserve="all" />
     <type fullname="SimpleBackgroundReplacer" preserve="all" />
     <type fullname="SimpleTranslateScriptable" preserve="all" />
     <type fullname="SkillAccruer" preserve="all" />
@@ -270,10 +281,26 @@
     <type fullname="TaskFactory" preserve="all" />
     <type fullname="TeacherMode" preserve="all" />
     <type fullname="TeacherModeUI" preserve="all" />
+    <type fullname="TestBlock" preserve="all" />
+    <type fullname="TestDataList" preserve="all" />
+    <type fullname="TestExercise" preserve="all" />
+    <type fullname="TestExerciseListDataHolder" preserve="all" />
+    <type fullname="TestExerciseProvider" preserve="all" />
+    <type fullname="TestExerciseSwitcher" preserve="all" />
+    <type fullname="TestInteractable" preserve="all" />
+    <type fullname="TestsListHolder" preserve="all" />
+    <type fullname="TestsPanel" preserve="all" />
     <type fullname="TextMeshProColors" preserve="all" />
     <type fullname="TextUI" preserve="all" />
     <type fullname="TierButton" preserve="all" />
     <type fullname="TierButtonInfoText" preserve="all" />
+    <type fullname="TongueTwistersDeepTextScriptable" preserve="all" />
+    <type fullname="TongueTwistersInteractable" preserve="all" />
+    <type fullname="TongueTwistersItemSelector" preserve="all" />
+    <type fullname="TongueTwistersPointDataHolder" preserve="all" />
+    <type fullname="TongueTwistersPointTextItem" preserve="all" />
+    <type fullname="TongueTwistersPointTextLoader" preserve="all" />
+    <type fullname="TongueTwistersTextSelector" preserve="all" />
     <type fullname="TranslatesScriptable" preserve="all" />
     <type fullname="TryLoadWordVariants" preserve="all" />
     <type fullname="UIAnimationHelper" preserve="all" />
@@ -302,7 +329,6 @@
     <type fullname="SentenceTranslate" preserve="nothing" serialized="true" />
     <type fullname="WordData" preserve="nothing" serialized="true" />
     <type fullname="WordDataListScriptable/WordDataWrapper" preserve="nothing" serialized="true" />
-    <type fullname="DeepText/DeepTextTranslate" preserve="nothing" serialized="true" />
     <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
     <type fullname="AdvertItemScriptable/SpriteItem" preserve="nothing" serialized="true" />
@@ -360,8 +386,14 @@
     <type fullname="LessonData/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="LessonData/LessonItem" preserve="nothing" serialized="true" />
     <type fullname="MainScene.Services.ContentRoot.RepeatPointInfo" preserve="nothing" serialized="true" />
+    <type fullname="TestBlock/LanguageText" preserve="nothing" serialized="true" />
+    <type fullname="TestBlock/TestUnit" preserve="nothing" serialized="true" />
+    <type fullname="DeepTextItem`1/DeepTextReferenceItem[TongueTwistersDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
+    <type fullname="Flags/FlagItem" preserve="nothing" serialized="true" />
+    <type fullname="ShowFlagsCutScene/FlagCamera" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
+    <type fullname="SkillFX/SkillFXPrefab" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="JsCursorLockHandler" preserve="all" />
@@ -406,6 +438,7 @@
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseList]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[RepeatPointDeepTextScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[TongueTwistersDeepTextScriptable]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.11.2.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
