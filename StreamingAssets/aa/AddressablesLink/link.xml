@@ -52,6 +52,7 @@
     <type fullname="CillianTargetAdaptiveX" preserve="all" />
     <type fullname="CillianTargetPoint" preserve="all" />
     <type fullname="CillianThirdButton" preserve="all" />
+    <type fullname="CillianTutorText" preserve="all" />
     <type fullname="CloudService" preserve="all" />
     <type fullname="ColorLookupEffects" preserve="all" />
     <type fullname="ComboEffects" preserve="all" />
@@ -281,7 +282,6 @@
     <type fullname="TaskFactory" preserve="all" />
     <type fullname="TeacherMode" preserve="all" />
     <type fullname="TeacherModeUI" preserve="all" />
-    <type fullname="TestBlock" preserve="all" />
     <type fullname="TestDataList" preserve="all" />
     <type fullname="TestExercise" preserve="all" />
     <type fullname="TestExerciseListDataHolder" preserve="all" />
@@ -319,17 +319,11 @@
     <type fullname="Chunk" preserve="nothing" serialized="true" />
     <type fullname="DeepText" preserve="nothing" serialized="true" />
     <type fullname="Paragraph" preserve="nothing" serialized="true" />
-    <type fullname="Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
     <type fullname="RichWord" preserve="nothing" serialized="true" />
     <type fullname="Sentence" preserve="nothing" serialized="true" />
-    <type fullname="Answer" preserve="nothing" serialized="true" />
-    <type fullname="AnswerData" preserve="nothing" serialized="true" />
-    <type fullname="Exercise" preserve="nothing" serialized="true" />
-    <type fullname="TaskData" preserve="nothing" serialized="true" />
     <type fullname="SentenceTranslate" preserve="nothing" serialized="true" />
     <type fullname="WordData" preserve="nothing" serialized="true" />
     <type fullname="WordDataListScriptable/WordDataWrapper" preserve="nothing" serialized="true" />
-    <type fullname="DeepText/DeepTextTranslate" preserve="nothing" serialized="true" />
     <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
     <type fullname="AdvertItemScriptable/SpriteItem" preserve="nothing" serialized="true" />
@@ -384,16 +378,18 @@
     <type fullname="UserLanguages/LanguageItem" preserve="nothing" serialized="true" />
     <type fullname="DeepTextItem`1/DeepTextReferenceItem[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="DeepTextItem`1/DeepTextReferenceItem[RepeatPointDeepTextScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="DeepTextItem`1/DeepTextReferenceItem[TongueTwistersDeepTextScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="MainScene.Services.ContentRoot.RepeatPointInfo" preserve="nothing" serialized="true" />
     <type fullname="LessonData/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="LessonData/LessonItem" preserve="nothing" serialized="true" />
-    <type fullname="MainScene.Services.ContentRoot.RepeatPointInfo" preserve="nothing" serialized="true" />
-    <type fullname="TestBlock/LanguageText" preserve="nothing" serialized="true" />
-    <type fullname="TestBlock/TestUnit" preserve="nothing" serialized="true" />
-    <type fullname="DeepTextItem`1/DeepTextReferenceItem[TongueTwistersDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
     <type fullname="Flags/FlagItem" preserve="nothing" serialized="true" />
     <type fullname="ShowFlagsCutScene/FlagCamera" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
+    <type fullname="Answer" preserve="nothing" serialized="true" />
+    <type fullname="AnswerData" preserve="nothing" serialized="true" />
+    <type fullname="Exercise" preserve="nothing" serialized="true" />
+    <type fullname="TaskData" preserve="nothing" serialized="true" />
     <type fullname="SkillFX/SkillFXPrefab" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -436,10 +432,10 @@
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[AdvertLanguageList]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[Fonts.FontStyle]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[MainScene.Services.ContentRoot.LanguageLevelContent]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseList]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[RepeatPointDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[TongueTwistersDeepTextScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseList]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.11.2.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
@@ -508,10 +504,10 @@
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
