@@ -60,7 +60,6 @@
     <type fullname="ContentLoader" preserve="all" />
     <type fullname="CreatePlayerFriend" preserve="all" />
     <type fullname="CursorLocker" preserve="all" />
-    <type fullname="DeepTextScriptable" preserve="all" />
     <type fullname="DestroyWithStartGame" preserve="all" />
     <type fullname="DrawRay" preserve="all" />
     <type fullname="EngLevelButton" preserve="all" />
@@ -68,10 +67,8 @@
     <type fullname="EnterCredentials" preserve="all" />
     <type fullname="EventSystemService" preserve="all" />
     <type fullname="ExampleUI" preserve="all" />
-    <type fullname="ExerciseList" preserve="all" />
     <type fullname="ExerciseMonitor" preserve="all" />
     <type fullname="ExerciseMonitorRenderObjects" preserve="all" />
-    <type fullname="ExerciseScriptable" preserve="all" />
     <type fullname="ExerciseService" preserve="all" />
     <type fullname="EyeButton" preserve="all" />
     <type fullname="FakeCursor" preserve="all" />
@@ -106,8 +103,6 @@
     <type fullname="IndieStudio.DrawingAndColoring.Logic.UIEvents" preserve="all" />
     <type fullname="IndieStudio.DrawingAndColoring.Logic.WorldSpaceRender" preserve="all" />
     <type fullname="InfoCornerService" preserve="all" />
-    <type fullname="InfoPointSkillAccruer" preserve="all" />
-    <type fullname="InfoZoneDataHolder" preserve="all" />
     <type fullname="InputMethodService" preserve="all" />
     <type fullname="InputSwitcher" preserve="all" />
     <type fullname="InteractableFocusCone" preserve="all" />
@@ -116,7 +111,6 @@
     <type fullname="InteractableSimple" preserve="all" />
     <type fullname="ItemSelectorUI" preserve="all" />
     <type fullname="Keyboard3d" preserve="all" />
-    <type fullname="LessonContentAnimator" preserve="all" />
     <type fullname="LessonContentSwitcher" preserve="all" />
     <type fullname="LessonData" preserve="all" />
     <type fullname="LessonDataList" preserve="all" />
@@ -124,14 +118,11 @@
     <type fullname="LessonExerciseListDataHolder" preserve="all" />
     <type fullname="LessonExerciseProvider" preserve="all" />
     <type fullname="LessonExerciseSwitcher" preserve="all" />
-    <type fullname="Lessons.Info_Monitor.InfoPointCillianDescription" preserve="all" />
-    <type fullname="Lessons.Info_Zone.InfoZoneInteractable" preserve="all" />
     <type fullname="LessonsPanel" preserve="all" />
     <type fullname="LessonTableInteractable" preserve="all" />
     <type fullname="LibraryBannerUI" preserve="all" />
     <type fullname="LibraryDataHolder" preserve="all" />
     <type fullname="LibraryDeepTextItem" preserve="all" />
-    <type fullname="LibraryDeepTextScriptable" preserve="all" />
     <type fullname="LibraryDescriptions" preserve="all" />
     <type fullname="LibraryEnvironment" preserve="all" />
     <type fullname="LibraryFx" preserve="all" />
@@ -172,7 +163,6 @@
     <type fullname="MenuController" preserve="all" />
     <type fullname="MessageService" preserve="all" />
     <type fullname="MessageUI" preserve="all" />
-    <type fullname="MoveToLessonContentTarget" preserve="all" />
     <type fullname="OnMouseDownWithEvent" preserve="all" />
     <type fullname="Outliner" preserve="all" />
     <type fullname="OutlineService" preserve="all" />
@@ -231,7 +221,6 @@
     <type fullname="Results.TestResultSource" preserve="all" />
     <type fullname="Results.TongueTwistersPointResultSource" preserve="all" />
     <type fullname="ResultScriptable" preserve="all" />
-    <type fullname="RotateFromPointer" preserve="all" />
     <type fullname="RotateToMainCameraWithoutX" preserve="all" />
     <type fullname="RotateToTarget" preserve="all" />
     <type fullname="SceneCounter" preserve="all" />
@@ -293,7 +282,6 @@
     <type fullname="TextUI" preserve="all" />
     <type fullname="TierButton" preserve="all" />
     <type fullname="TierButtonInfoText" preserve="all" />
-    <type fullname="TongueTwistersDeepTextScriptable" preserve="all" />
     <type fullname="TongueTwistersInteractable" preserve="all" />
     <type fullname="TongueTwistersItemSelector" preserve="all" />
     <type fullname="TongueTwistersPointDataHolder" preserve="all" />
@@ -385,10 +373,6 @@
     <type fullname="Flags/FlagItem" preserve="nothing" serialized="true" />
     <type fullname="ShowFlagsCutScene/FlagCamera" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
-    <type fullname="Answer" preserve="nothing" serialized="true" />
-    <type fullname="AnswerData" preserve="nothing" serialized="true" />
-    <type fullname="Exercise" preserve="nothing" serialized="true" />
-    <type fullname="TaskData" preserve="nothing" serialized="true" />
     <type fullname="SkillFX/SkillFXPrefab" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -425,12 +409,12 @@
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[WordDataListScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[AdvertItemScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[AdvertLanguageList]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[Fonts.FontStyle]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[MainScene.Services.ContentRoot.LanguageLevelContent]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[WordDataListScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[RepeatPointDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[TongueTwistersDeepTextScriptable]" preserve="nothing" serialized="true" />
@@ -512,7 +496,6 @@
     <type fullname="UnityEngine.Animation" preserve="all" />
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
-    <type fullname="UnityEngine.Avatar" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -541,8 +524,8 @@
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
-    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[Recognissimo.InitializationException]" preserve="nothing" serialized="true" />
@@ -565,7 +548,6 @@
   </assembly>
   <assembly fullname="UnityEngine.TextCoreTextEngineModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.TextCore.Text.FontAsset" preserve="all" />
-    <type fullname="UnityEngine.TextCore.Text.Character" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontAssetCreationEditorSettings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontWeightPair" preserve="nothing" serialized="true" />
@@ -581,12 +563,12 @@
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.Shadow" preserve="all" />
-    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>
@@ -621,8 +603,5 @@
     <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
