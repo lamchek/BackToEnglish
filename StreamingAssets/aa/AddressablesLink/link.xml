@@ -69,6 +69,7 @@
     <type fullname="ExerciseList" preserve="all" />
     <type fullname="ExerciseMonitor" preserve="all" />
     <type fullname="ExerciseMonitorRenderObjects" preserve="all" />
+    <type fullname="ExerciseProgressForOne" preserve="all" />
     <type fullname="ExerciseScriptable" preserve="all" />
     <type fullname="ExerciseService" preserve="all" />
     <type fullname="EyeButton" preserve="all" />
@@ -87,8 +88,6 @@
     <type fullname="FpsCounterSwitcher" preserve="all" />
     <type fullname="FroggyLessonsListHolder" preserve="all" />
     <type fullname="FroggyLoaderUI" preserve="all" />
-    <type fullname="FroggyProgressForOne" preserve="all" />
-    <type fullname="FroggyResultUI" preserve="all" />
     <type fullname="HardnessService" preserve="all" />
     <type fullname="HintService" preserve="all" />
     <type fullname="IdButton" preserve="all" />
@@ -222,7 +221,6 @@
     <type fullname="RepeatTask" preserve="all" />
     <type fullname="RestartCredentials" preserve="all" />
     <type fullname="Results.LibraryResultSource" preserve="all" />
-    <type fullname="Results.RandomExerciseResultSource" preserve="all" />
     <type fullname="Results.RepeatPointResultSource" preserve="all" />
     <type fullname="Results.ResultBox.BaseResultBox" preserve="all" />
     <type fullname="Results.TestResultSource" preserve="all" />
@@ -272,6 +270,7 @@
     <type fullname="SplineFollowing" preserve="all" />
     <type fullname="SplineHolderMain" preserve="all" />
     <type fullname="SplineService" preserve="all" />
+    <type fullname="StageResultUI" preserve="all" />
     <type fullname="StartCamera" preserve="all" />
     <type fullname="SwitchStateCollider" preserve="all" />
     <type fullname="TaskAudioGreetings" preserve="all" />
@@ -285,6 +284,8 @@
     <type fullname="TestExerciseProvider" preserve="all" />
     <type fullname="TestExerciseSwitcher" preserve="all" />
     <type fullname="TestInteractable" preserve="all" />
+    <type fullname="TestProgressForOne" preserve="all" />
+    <type fullname="TestResultUI" preserve="all" />
     <type fullname="TestsListHolder" preserve="all" />
     <type fullname="TestsPanel" preserve="all" />
     <type fullname="TextMeshProColors" preserve="all" />
@@ -361,7 +362,6 @@
     <type fullname="ReactionService/LessonReactions" preserve="nothing" serialized="true" />
     <type fullname="ReactionService/LibraryMechanicReactions" preserve="nothing" serialized="true" />
     <type fullname="ReactionService/LimiterReactions" preserve="nothing" serialized="true" />
-    <type fullname="ReactionService/RepeatPointReactions" preserve="nothing" serialized="true" />
     <type fullname="ReactionService/TaskReactions" preserve="nothing" serialized="true" />
     <type fullname="ResultScriptable/HardnessMatch" preserve="nothing" serialized="true" />
     <type fullname="ResultScriptable/ResultMatch" preserve="nothing" serialized="true" />
