@@ -389,6 +389,7 @@
     <type fullname="ShowFlagsCutScene/FlagCamera" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
     <type fullname="SkillFX/SkillFXPrefab" preserve="nothing" serialized="true" />
+    <type fullname="Skills_Menu.SkillMenuControl/IncreaseColor" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="JsCursorLockHandler" preserve="all" />
