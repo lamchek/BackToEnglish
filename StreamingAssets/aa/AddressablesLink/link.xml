@@ -102,7 +102,6 @@
     <type fullname="IndieStudio.DrawingAndColoring.Logic.ToolContent" preserve="all" />
     <type fullname="IndieStudio.DrawingAndColoring.Logic.UIEvents" preserve="all" />
     <type fullname="IndieStudio.DrawingAndColoring.Logic.WorldSpaceRender" preserve="all" />
-    <type fullname="InfoCornerService" preserve="all" />
     <type fullname="InfoPointSkillAccruer" preserve="all" />
     <type fullname="InfoZoneDataHolder" preserve="all" />
     <type fullname="InputMethodService" preserve="all" />
@@ -165,7 +164,6 @@
     <type fullname="MainScene.UI.Windows.OneActionWindow" preserve="all" />
     <type fullname="MainScene.UI.Windows.Windows" preserve="all" />
     <type fullname="MainSceneEntryPoint" preserve="all" />
-    <type fullname="MechanicsInfoScriptable" preserve="all" />
     <type fullname="MenuController" preserve="all" />
     <type fullname="MessageService" preserve="all" />
     <type fullname="MessageUI" preserve="all" />
@@ -345,8 +343,6 @@
     <type fullname="LibrarySettings/ResultAvailabilityMechanic" preserve="nothing" serialized="true" />
     <type fullname="LoadAssetOperation`1[Fonts.FontStyle]" preserve="nothing" serialized="true" />
     <type fullname="MainScene.Services.ContentRoot.ContentRoot/LanguageLevelContentItemReference" preserve="nothing" serialized="true" />
-    <type fullname="MechanicsInfoScriptable/LanguageText" preserve="nothing" serialized="true" />
-    <type fullname="MechanicsInfoScriptable/MechanicInfo" preserve="nothing" serialized="true" />
     <type fullname="PaintUICanvas/ToolBox" preserve="nothing" serialized="true" />
     <type fullname="Player.CillianSpace.CillianIcons/IconItem" preserve="nothing" serialized="true" />
     <type fullname="Player.CillianSpace.CillianIcons/IconStrItem" preserve="nothing" serialized="true" />
@@ -503,10 +499,10 @@
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
@@ -565,6 +561,7 @@
   </assembly>
   <assembly fullname="UnityEngine.TextCoreTextEngineModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.TextCore.Text.FontAsset" preserve="all" />
+    <type fullname="UnityEngine.TextCore.Text.Character" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontAssetCreationEditorSettings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontWeightPair" preserve="nothing" serialized="true" />
