@@ -24,10 +24,8 @@
     <type fullname="AudioPlayer" preserve="all" />
     <type fullname="AudioService" preserve="all" />
     <type fullname="AudioSettingsScriptable" preserve="all" />
-    <type fullname="BackgroundReplacer" preserve="all" />
     <type fullname="BigBricksSpawner" preserve="all" />
     <type fullname="BlackoutScreen" preserve="all" />
-    <type fullname="BlurPlane" preserve="all" />
     <type fullname="Brick" preserve="all" />
     <type fullname="BrickAnimated" preserve="all" />
     <type fullname="BrickSoundEffect" preserve="all" />
@@ -47,7 +45,6 @@
     <type fullname="CillianOneButton" preserve="all" />
     <type fullname="CillianSceneSettings" preserve="all" />
     <type fullname="CillianSecondButton" preserve="all" />
-    <type fullname="CillianTargetAdaptiveX" preserve="all" />
     <type fullname="CillianTargetPoint" preserve="all" />
     <type fullname="CillianThirdButton" preserve="all" />
     <type fullname="CillianTutorText" preserve="all" />
@@ -105,7 +102,6 @@
     <type fullname="InfoZoneDataHolder" preserve="all" />
     <type fullname="InputMethodService" preserve="all" />
     <type fullname="InputSwitcher" preserve="all" />
-    <type fullname="InteractableFocusCone" preserve="all" />
     <type fullname="InteractableLayerList" preserve="all" />
     <type fullname="InteractableObjectNew" preserve="all" />
     <type fullname="InteractableSimple" preserve="all" />
@@ -146,8 +142,6 @@
     <type fullname="LibraryWindow" preserve="all" />
     <type fullname="ListenTask" preserve="all" />
     <type fullname="LookAtTargetAdaptive" preserve="all" />
-    <type fullname="MainCamera" preserve="all" />
-    <type fullname="MainCameraChildren" preserve="all" />
     <type fullname="MainPlayer" preserve="all" />
     <type fullname="MainScene.Services.ContentRoot.ContentRoot" preserve="all" />
     <type fullname="MainScene.Services.ContentRoot.ContentRootService" preserve="all" />
@@ -167,7 +161,7 @@
     <type fullname="MessageService" preserve="all" />
     <type fullname="MessageUI" preserve="all" />
     <type fullname="MoveToLessonContentTarget" preserve="all" />
-    <type fullname="OnMouseDownWithEvent" preserve="all" />
+    <type fullname="OnPointerDownWithEvent" preserve="all" />
     <type fullname="Outliner" preserve="all" />
     <type fullname="PaintUICanvas" preserve="all" />
     <type fullname="PatreonTogglesUI" preserve="all" />
@@ -228,7 +222,6 @@
     <type fullname="RotateToTarget" preserve="all" />
     <type fullname="SceneCounter" preserve="all" />
     <type fullname="SceneReferenceObject" preserve="all" />
-    <type fullname="ScreenSize" preserve="all" />
     <type fullname="ScrollerService" preserve="all" />
     <type fullname="Services.PostEffects.AberrationEffects" preserve="all" />
     <type fullname="Services.PostEffects.BlurEffects" preserve="all" />
@@ -389,14 +382,9 @@
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.Cinemachine3rdPersonFollow" preserve="all" />
-    <type fullname="Cinemachine.CinemachineBlenderSettings" preserve="all" />
-    <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
     <type fullname="Cinemachine.CinemachinePipeline" preserve="all" />
     <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
     <type fullname="Cinemachine.NoiseSettings" preserve="all" />
-    <type fullname="Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true" />
-    <type fullname="Cinemachine.CinemachineBlenderSettings/CustomBlend" preserve="nothing" serialized="true" />
-    <type fullname="Cinemachine.CinemachineBrain/BrainEvent" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.CinemachineBrain/VcamActivatedEvent" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.CinemachineVirtualCameraBase/TransitionParams" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.LensSettings" preserve="nothing" serialized="true" />
