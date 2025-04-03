@@ -11,8 +11,9 @@
     <type fullname="AdjustableCameraAnglesScriptable" preserve="all" />
     <type fullname="AdjustablePlayerCameraRoot" preserve="all" />
     <type fullname="AdjustableSprite" preserve="all" />
+    <type fullname="AdvertisementPrerollUI" preserve="all" />
     <type fullname="AdvertisementProgressBar" preserve="all" />
-    <type fullname="AdvertisementWindow" preserve="all" />
+    <type fullname="AdvertisementStarter" preserve="all" />
     <type fullname="AIButtonUI" preserve="all" />
     <type fullname="AIStateService" preserve="all" />
     <type fullname="AnyButton" preserve="all" />
@@ -175,10 +176,12 @@
     <type fullname="Player.CillianSpace.CillianIcons" preserve="all" />
     <type fullname="Player.CillianSpace.CillianTargetsHolder" preserve="all" />
     <type fullname="Player.CillianSpace.MainUI" preserve="all" />
+    <type fullname="Player.CillianSpace.RightButton" preserve="all" />
     <type fullname="PlayerCameraEffects" preserve="all" />
     <type fullname="PlayerDataHolder" preserve="all" />
     <type fullname="PlayerSettingsNamespace.PlayerSettingsScriptable" preserve="all" />
     <type fullname="PointerService" preserve="all" />
+    <type fullname="PointFx" preserve="all" />
     <type fullname="PostEffects" preserve="all" />
     <type fullname="PostProcessingRoot" preserve="all" />
     <type fullname="ProgressPath" preserve="all" />
