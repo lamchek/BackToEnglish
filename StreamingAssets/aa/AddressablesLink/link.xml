@@ -49,6 +49,7 @@
     <type fullname="CillianTargetPoint" preserve="all" />
     <type fullname="CillianThirdButton" preserve="all" />
     <type fullname="CillianTutorText" preserve="all" />
+    <type fullname="ClickFx" preserve="all" />
     <type fullname="CloudService" preserve="all" />
     <type fullname="ColorLookupEffects" preserve="all" />
     <type fullname="ComboEffects" preserve="all" />
@@ -237,7 +238,6 @@
     <type fullname="Settings" preserve="all" />
     <type fullname="Settings_SO.Player.Characteristics.Characteristic" preserve="all" />
     <type fullname="Settings_SO.Services.RenderScaler" preserve="all" />
-    <type fullname="SettingsUIButton" preserve="all" />
     <type fullname="ShowFlagsCutScene" preserve="all" />
     <type fullname="SimpleBackgroundReplacer" preserve="all" />
     <type fullname="SimpleTranslateScriptable" preserve="all" />
@@ -263,6 +263,7 @@
     <type fullname="SplineFollowing" preserve="all" />
     <type fullname="SplineHolderMain" preserve="all" />
     <type fullname="SplineService" preserve="all" />
+    <type fullname="SpriteAnimator" preserve="all" />
     <type fullname="StageResultUI" preserve="all" />
     <type fullname="StartCamera" preserve="all" />
     <type fullname="SwitchStateCollider" preserve="all" />
@@ -302,6 +303,7 @@
     <type fullname="UserMenu" preserve="all" />
     <type fullname="UserMenuRefreshPage" preserve="all" />
     <type fullname="UserMenuUI" preserve="all" />
+    <type fullname="UserMenuUIButton" preserve="all" />
     <type fullname="Visualizer" preserve="all" />
     <type fullname="VisualizerService" preserve="all" />
     <type fullname="WindowBackground" preserve="all" />
