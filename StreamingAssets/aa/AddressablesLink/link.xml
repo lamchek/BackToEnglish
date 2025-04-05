@@ -18,6 +18,7 @@
     <type fullname="AIStateService" preserve="all" />
     <type fullname="AnyButton" preserve="all" />
     <type fullname="AnyButtonWithoutUI" preserve="all" />
+    <type fullname="AnyElementAnimator" preserve="all" />
     <type fullname="ASRDesktop" preserve="all" />
     <type fullname="ASRFallback" preserve="all" />
     <type fullname="ASRMobile" preserve="all" />
@@ -28,7 +29,7 @@
     <type fullname="BigBricksSpawner" preserve="all" />
     <type fullname="BlackoutScreen" preserve="all" />
     <type fullname="Brick" preserve="all" />
-    <type fullname="BrickAnimated" preserve="all" />
+    <type fullname="BrickAnimationHandler" preserve="all" />
     <type fullname="BrickSoundEffect" preserve="all" />
     <type fullname="BricksSpawner" preserve="all" />
     <type fullname="ButtonColliderWithoutMesh" preserve="all" />
@@ -121,6 +122,7 @@
     <type fullname="Lessons.Info_Zone.InfoZoneInteractable" preserve="all" />
     <type fullname="LessonsPanel" preserve="all" />
     <type fullname="LessonTableInteractable" preserve="all" />
+    <type fullname="LetterAnimationHandler" preserve="all" />
     <type fullname="LibraryBannerUI" preserve="all" />
     <type fullname="LibraryDataHolder" preserve="all" />
     <type fullname="LibraryDeepTextItem" preserve="all" />
@@ -181,6 +183,7 @@
     <type fullname="PlayerCameraEffects" preserve="all" />
     <type fullname="PlayerDataHolder" preserve="all" />
     <type fullname="PlayerSettingsNamespace.PlayerSettingsScriptable" preserve="all" />
+    <type fullname="PointerOverOutMoveEvents" preserve="all" />
     <type fullname="PointerService" preserve="all" />
     <type fullname="PointFx" preserve="all" />
     <type fullname="PostEffects" preserve="all" />
@@ -263,7 +266,7 @@
     <type fullname="SplineFollowing" preserve="all" />
     <type fullname="SplineHolderMain" preserve="all" />
     <type fullname="SplineService" preserve="all" />
-    <type fullname="SpriteAnimator" preserve="all" />
+    <type fullname="SpriteAnimationElementHandler" preserve="all" />
     <type fullname="StageResultUI" preserve="all" />
     <type fullname="StartCamera" preserve="all" />
     <type fullname="SwitchStateCollider" preserve="all" />
@@ -304,6 +307,7 @@
     <type fullname="UserMenuRefreshPage" preserve="all" />
     <type fullname="UserMenuUI" preserve="all" />
     <type fullname="UserMenuUIButton" preserve="all" />
+    <type fullname="VisualElementAnimationHandler" preserve="all" />
     <type fullname="Visualizer" preserve="all" />
     <type fullname="VisualizerService" preserve="all" />
     <type fullname="WindowBackground" preserve="all" />
@@ -384,6 +388,7 @@
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="JsCursorLockHandler" preserve="all" />
+    <type fullname="JsMouseLeaveMouseEnterHandler" preserve="all" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.Cinemachine3rdPersonFollow" preserve="all" />
