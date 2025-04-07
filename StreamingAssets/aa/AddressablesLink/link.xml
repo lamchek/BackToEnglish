@@ -64,6 +64,7 @@
     <type fullname="EngLevelButton" preserve="all" />
     <type fullname="EngLevelSelector" preserve="all" />
     <type fullname="EnterCredentials" preserve="all" />
+    <type fullname="Estrada.MicrophoneRequestResultReceiver" preserve="all" />
     <type fullname="EventSystemService" preserve="all" />
     <type fullname="ExerciseList" preserve="all" />
     <type fullname="ExerciseMonitor" preserve="all" />
@@ -401,6 +402,9 @@
     <type fullname="Cinemachine.NoiseSettings/NoiseParams" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.NoiseSettings/TransformNoiseParams" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="Estrada, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Estrada.MicrophonePermissioner" preserve="all" />
+  </assembly>
   <assembly fullname="Recognissimo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Recognissimo.Components.RecorderAudioClipSpeechSource" preserve="all" />
     <type fullname="Recognissimo.Components.SpeechRecognizer" preserve="all" />
@@ -536,6 +540,7 @@
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[Recognissimo.InitializationException]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[Recognissimo.RuntimeException]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.Boolean]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
