@@ -123,6 +123,8 @@
     <type fullname="Lessons.Info_Zone.InfoZoneInteractable" preserve="all" />
     <type fullname="LessonsPanel" preserve="all" />
     <type fullname="LessonTableInteractable" preserve="all" />
+    <type fullname="LessonVideoDataHolder" preserve="all" />
+    <type fullname="LessonVideoInteractable" preserve="all" />
     <type fullname="LetterAnimationHandler" preserve="all" />
     <type fullname="LibraryBannerUI" preserve="all" />
     <type fullname="LibraryDataHolder" preserve="all" />
@@ -308,6 +310,9 @@
     <type fullname="UserMenuRefreshPage" preserve="all" />
     <type fullname="UserMenuUI" preserve="all" />
     <type fullname="UserMenuUIButton" preserve="all" />
+    <type fullname="VideoPlayerAsset.UI.VideoControlsUI" preserve="all" />
+    <type fullname="VideoPlayerAsset.Video.VideoController" preserve="all" />
+    <type fullname="VideoURLScriptable" preserve="all" />
     <type fullname="VisualElementAnimationHandler" preserve="all" />
     <type fullname="Visualizer" preserve="all" />
     <type fullname="VisualizerService" preserve="all" />
@@ -605,6 +610,9 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Video.VideoPlayer" preserve="all" />
   </assembly>
   <assembly fullname="UnityPlayModeSaver, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Framework.Utils.UnityPlayModeSaverSceneUtils" preserve="all" />
