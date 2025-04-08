@@ -182,6 +182,7 @@
     <type fullname="Player.CillianSpace.CillianIcons" preserve="all" />
     <type fullname="Player.CillianSpace.CillianTargetsHolder" preserve="all" />
     <type fullname="Player.CillianSpace.MainUI" preserve="all" />
+    <type fullname="Player.CillianSpace.PractiseButton" preserve="all" />
     <type fullname="Player.CillianSpace.RightButton" preserve="all" />
     <type fullname="PlayerCameraEffects" preserve="all" />
     <type fullname="PlayerDataHolder" preserve="all" />
