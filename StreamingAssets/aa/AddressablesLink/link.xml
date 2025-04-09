@@ -263,6 +263,7 @@
     <type fullname="Skills_Menu.SkillsMenuService" preserve="all" />
     <type fullname="Skills_Menu.SkillsMenuUI" preserve="all" />
     <type fullname="SkillsAdditionSettings" preserve="all" />
+    <type fullname="SkillsMenuSpeakingClickHandler" preserve="all" />
     <type fullname="SmoothDampFollowing" preserve="all" />
     <type fullname="SpeakingModeIcon" preserve="all" />
     <type fullname="SpeakingWindow" preserve="all" />
