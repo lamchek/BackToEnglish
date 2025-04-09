@@ -291,6 +291,7 @@
     <type fullname="TestsPanel" preserve="all" />
     <type fullname="TextMeshProColors" preserve="all" />
     <type fullname="TextUI" preserve="all" />
+    <type fullname="TheoryVideoPrerollUI" preserve="all" />
     <type fullname="TierButton" preserve="all" />
     <type fullname="TierButtonInfoText" preserve="all" />
     <type fullname="TongueTwistersDeepTextScriptable" preserve="all" />
