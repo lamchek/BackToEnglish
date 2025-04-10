@@ -58,7 +58,6 @@
     <type fullname="ContentLoader" preserve="all" />
     <type fullname="CreatePlayerFriend" preserve="all" />
     <type fullname="CursorLocker" preserve="all" />
-    <type fullname="DeepTextScriptable" preserve="all" />
     <type fullname="DestroyWithStartGame" preserve="all" />
     <type fullname="DrawRay" preserve="all" />
     <type fullname="EngLevelButton" preserve="all" />
@@ -102,8 +101,6 @@
     <type fullname="IndieStudio.DrawingAndColoring.Logic.ToolContent" preserve="all" />
     <type fullname="IndieStudio.DrawingAndColoring.Logic.UIEvents" preserve="all" />
     <type fullname="IndieStudio.DrawingAndColoring.Logic.WorldSpaceRender" preserve="all" />
-    <type fullname="InfoPointSkillAccruer" preserve="all" />
-    <type fullname="InfoZoneDataHolder" preserve="all" />
     <type fullname="InputMethodService" preserve="all" />
     <type fullname="InputSwitcher" preserve="all" />
     <type fullname="InteractableLayerList" preserve="all" />
@@ -111,7 +108,6 @@
     <type fullname="InteractableSimple" preserve="all" />
     <type fullname="ItemSelectorUI" preserve="all" />
     <type fullname="Keyboard3d" preserve="all" />
-    <type fullname="LessonContentAnimator" preserve="all" />
     <type fullname="LessonContentSwitcher" preserve="all" />
     <type fullname="LessonData" preserve="all" />
     <type fullname="LessonDataList" preserve="all" />
@@ -119,8 +115,6 @@
     <type fullname="LessonExerciseListDataHolder" preserve="all" />
     <type fullname="LessonExerciseProvider" preserve="all" />
     <type fullname="LessonExerciseSwitcher" preserve="all" />
-    <type fullname="Lessons.Info_Monitor.InfoPointCillianDescription" preserve="all" />
-    <type fullname="Lessons.Info_Zone.InfoZoneInteractable" preserve="all" />
     <type fullname="LessonsPanel" preserve="all" />
     <type fullname="LessonTableInteractable" preserve="all" />
     <type fullname="LessonVideoDataHolder" preserve="all" />
@@ -167,7 +161,6 @@
     <type fullname="MenuController" preserve="all" />
     <type fullname="MessageService" preserve="all" />
     <type fullname="MessageUI" preserve="all" />
-    <type fullname="MoveToLessonContentTarget" preserve="all" />
     <type fullname="OnPointerDownWithEvent" preserve="all" />
     <type fullname="Outliner" preserve="all" />
     <type fullname="PaintUICanvas" preserve="all" />
@@ -222,6 +215,7 @@
     <type fullname="RepeatPointTextLoader" preserve="all" />
     <type fullname="RepeatTask" preserve="all" />
     <type fullname="RestartCredentials" preserve="all" />
+    <type fullname="Results.LessonExerciseResultSource" preserve="all" />
     <type fullname="Results.LibraryResultSource" preserve="all" />
     <type fullname="Results.RepeatPointResultSource" preserve="all" />
     <type fullname="Results.ResultBox.BaseResultBox" preserve="all" />
@@ -272,6 +266,7 @@
     <type fullname="SplineHolderMain" preserve="all" />
     <type fullname="SplineService" preserve="all" />
     <type fullname="SpriteAnimationElementHandler" preserve="all" />
+    <type fullname="SpriteColorAnimationHandler" preserve="all" />
     <type fullname="StageResultUI" preserve="all" />
     <type fullname="StartCamera" preserve="all" />
     <type fullname="SwitchStateCollider" preserve="all" />
