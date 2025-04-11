@@ -65,6 +65,7 @@
     <type fullname="EnterCredentials" preserve="all" />
     <type fullname="Estrada.MicrophoneRequestResultReceiver" preserve="all" />
     <type fullname="EventSystemService" preserve="all" />
+    <type fullname="ExerciseCounter" preserve="all" />
     <type fullname="ExerciseList" preserve="all" />
     <type fullname="ExerciseMonitor" preserve="all" />
     <type fullname="ExerciseMonitorRenderObjects" preserve="all" />
