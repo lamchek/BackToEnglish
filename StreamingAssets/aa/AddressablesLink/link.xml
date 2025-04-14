@@ -14,6 +14,7 @@
     <type fullname="AdvertisementPrerollUI" preserve="all" />
     <type fullname="AdvertisementProgressBar" preserve="all" />
     <type fullname="AdvertisementStarter" preserve="all" />
+    <type fullname="AdvUrlButton" preserve="all" />
     <type fullname="AIButtonUI" preserve="all" />
     <type fullname="AIStateService" preserve="all" />
     <type fullname="AnyButton" preserve="all" />
@@ -39,12 +40,12 @@
     <type fullname="ChooseCorrectOption" preserve="all" />
     <type fullname="ChooseOptionsTmp" preserve="all" />
     <type fullname="ChooseOptionsUI" preserve="all" />
-    <type fullname="CillianAdvertUI" preserve="all" />
     <type fullname="CillianCameraTextureCleaner" preserve="all" />
     <type fullname="CillianFourthButton" preserve="all" />
     <type fullname="CillianInfoUI" preserve="all" />
     <type fullname="CillianLoaderUI" preserve="all" />
     <type fullname="CillianOneButton" preserve="all" />
+    <type fullname="CillianPlayAdvertUI" preserve="all" />
     <type fullname="CillianSceneSettings" preserve="all" />
     <type fullname="CillianSecondButton" preserve="all" />
     <type fullname="CillianTargetPoint" preserve="all" />
@@ -105,6 +106,7 @@
     <type fullname="InputMethodService" preserve="all" />
     <type fullname="InputSwitcher" preserve="all" />
     <type fullname="InteractableLayerList" preserve="all" />
+    <type fullname="InteractableObjectActivatorByEnglishLevel" preserve="all" />
     <type fullname="InteractableObjectNew" preserve="all" />
     <type fullname="InteractableSimple" preserve="all" />
     <type fullname="ItemSelectorUI" preserve="all" />
@@ -362,6 +364,7 @@
     <type fullname="ReactionService/LessonReactions" preserve="nothing" serialized="true" />
     <type fullname="ReactionService/LibraryMechanicReactions" preserve="nothing" serialized="true" />
     <type fullname="ReactionService/LimiterReactions" preserve="nothing" serialized="true" />
+    <type fullname="ReactionService/RepeatPointReactions" preserve="nothing" serialized="true" />
     <type fullname="ReactionService/TaskReactions" preserve="nothing" serialized="true" />
     <type fullname="ResultScriptable/HardnessMatch" preserve="nothing" serialized="true" />
     <type fullname="ResultScriptable/ResultMatch" preserve="nothing" serialized="true" />
@@ -386,6 +389,7 @@
     <type fullname="LessonData/LessonItem" preserve="nothing" serialized="true" />
     <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
     <type fullname="Flags/FlagItem" preserve="nothing" serialized="true" />
+    <type fullname="InteractableObjectActivatorByEnglishLevel/PermissionWithEnglishLevel" preserve="nothing" serialized="true" />
     <type fullname="ShowFlagsCutScene/FlagCamera" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
     <type fullname="SkillFX/SkillFXPrefab" preserve="nothing" serialized="true" />
