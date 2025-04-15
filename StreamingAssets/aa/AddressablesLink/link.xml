@@ -142,7 +142,6 @@
     <type fullname="LibrarySettings" preserve="all" />
     <type fullname="LibrarySkillAccruer" preserve="all" />
     <type fullname="LibrarySpelling" preserve="all" />
-    <type fullname="LibraryTitle" preserve="all" />
     <type fullname="LibraryWindow" preserve="all" />
     <type fullname="ListenTask" preserve="all" />
     <type fullname="LookAtTargetAdaptive" preserve="all" />
@@ -171,6 +170,7 @@
     <type fullname="PauseBackground" preserve="all" />
     <type fullname="PauseDoc" preserve="all" />
     <type fullname="PauseService" preserve="all" />
+    <type fullname="PicturePointMaterialTuner" preserve="all" />
     <type fullname="Player.CillianSpace.Cillian" preserve="all" />
     <type fullname="Player.CillianSpace.CillianAdaptiveOrientation" preserve="all" />
     <type fullname="Player.CillianSpace.CillianAdaptiveY" preserve="all" />
