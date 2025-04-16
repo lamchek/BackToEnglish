@@ -143,6 +143,7 @@
     <type fullname="LibrarySkillAccruer" preserve="all" />
     <type fullname="LibrarySpelling" preserve="all" />
     <type fullname="LibraryWindow" preserve="all" />
+    <type fullname="LIghtSourceEffect" preserve="all" />
     <type fullname="ListenTask" preserve="all" />
     <type fullname="LookAtTargetAdaptive" preserve="all" />
     <type fullname="MainPlayer" preserve="all" />
