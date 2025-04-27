@@ -53,7 +53,6 @@
     <type fullname="CillianTargetPoint" preserve="all" />
     <type fullname="CillianTutorPlane" preserve="all" />
     <type fullname="CirclesDiagramAnimator" preserve="all" />
-    <type fullname="ClickFx" preserve="all" />
     <type fullname="CloudService" preserve="all" />
     <type fullname="ColorLookupEffects" preserve="all" />
     <type fullname="ComboEffects" preserve="all" />
@@ -64,7 +63,7 @@
     <type fullname="DestroyWithStartGame" preserve="all" />
     <type fullname="DisableOnAwake" preserve="all" />
     <type fullname="DrawRay" preserve="all" />
-    <type fullname="EnableWithStartGame" preserve="all" />
+    <type fullname="EnableWithFireplace" preserve="all" />
     <type fullname="EngLevelButton" preserve="all" />
     <type fullname="EngLevelSelector" preserve="all" />
     <type fullname="EnterCredentials" preserve="all" />
@@ -87,7 +86,6 @@
     <type fullname="FollowToTarget" preserve="all" />
     <type fullname="FollowToTargetWithRigidbody" preserve="all" />
     <type fullname="Fonts.FontStyle" preserve="all" />
-    <type fullname="FontStyleService" preserve="all" />
     <type fullname="ForestHills" preserve="all" />
     <type fullname="FPSCounter" preserve="all" />
     <type fullname="FpsCounterSwitcher" preserve="all" />
@@ -95,6 +93,7 @@
     <type fullname="FroggyLoaderUI" preserve="all" />
     <type fullname="FromPointAppearing" preserve="all" />
     <type fullname="HardnessService" preserve="all" />
+    <type fullname="HeadLightingEntrance" preserve="all" />
     <type fullname="HeadLights" preserve="all" />
     <type fullname="HeadLightsAnimation" preserve="all" />
     <type fullname="HintService" preserve="all" />
@@ -189,7 +188,6 @@
     <type fullname="Player.CillianSpace.CillianTargetsHolder" preserve="all" />
     <type fullname="Player.CillianSpace.MainUI" preserve="all" />
     <type fullname="Player.CillianSpace.PractiseButton" preserve="all" />
-    <type fullname="Player.CillianSpace.RightButton" preserve="all" />
     <type fullname="PlayerCameraEffects" preserve="all" />
     <type fullname="PlayerCollider" preserve="all" />
     <type fullname="PlayerDataHolder" preserve="all" />
@@ -318,9 +316,7 @@
     <type fullname="TongueTwistersTextSelector" preserve="all" />
     <type fullname="TranslatesScriptable" preserve="all" />
     <type fullname="TryLoadWordVariants" preserve="all" />
-    <type fullname="UIAnimationHelper" preserve="all" />
     <type fullname="UISizeSettingsScriptable" preserve="all" />
-    <type fullname="UIVisualService" preserve="all" />
     <type fullname="UserIdCorner" preserve="all" />
     <type fullname="UserLanguages" preserve="all" />
     <type fullname="UserMenu" preserve="all" />
@@ -364,12 +360,10 @@
     <type fullname="AudioSettingsScriptable/AbstractMiniGame" preserve="nothing" serialized="true" />
     <type fullname="AudioSettingsScriptable/AbstractVoice" preserve="nothing" serialized="true" />
     <type fullname="ChooseOptionsUI/Template" preserve="nothing" serialized="true" />
-    <type fullname="FontStyleService/FontStyleObject" preserve="nothing" serialized="true" />
     <type fullname="HintService/HintIcon" preserve="nothing" serialized="true" />
     <type fullname="LanguageText" preserve="nothing" serialized="true" />
     <type fullname="LibrarySettings/LanguageLevelTranslate" preserve="nothing" serialized="true" />
     <type fullname="LibrarySettings/ResultAvailabilityMechanic" preserve="nothing" serialized="true" />
-    <type fullname="LoadAssetOperation`1[Fonts.FontStyle]" preserve="nothing" serialized="true" />
     <type fullname="MainScene.Services.ContentRoot.ContentRoot/LanguageLevelContentItemReference" preserve="nothing" serialized="true" />
     <type fullname="MainScene.UI.Windows.Advertisement.AdvVideoItem" preserve="nothing" serialized="true" />
     <type fullname="PaintUICanvas/ToolBox" preserve="nothing" serialized="true" />
@@ -453,7 +447,6 @@
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[WordDataListScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[Fonts.FontStyle]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[MainScene.Services.ContentRoot.LanguageLevelContent]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseList]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
@@ -558,6 +551,7 @@
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
     <type fullname="UnityEngine.RenderTexture" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.ShaderVariantCollection" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
