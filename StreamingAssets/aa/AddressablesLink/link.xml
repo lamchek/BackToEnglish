@@ -31,6 +31,7 @@
     <type fullname="Brick" preserve="all" />
     <type fullname="BrickAnimationHandler" preserve="all" />
     <type fullname="BrickBox" preserve="all" />
+    <type fullname="BrickFX" preserve="all" />
     <type fullname="BrickRotationOutside" preserve="all" />
     <type fullname="BrickSoundEffect" preserve="all" />
     <type fullname="BricksSpawner" preserve="all" />
@@ -309,6 +310,10 @@
     <type fullname="TheoryVideoPrerollUI" preserve="all" />
     <type fullname="TierButton" preserve="all" />
     <type fullname="TierButtonInfoText" preserve="all" />
+    <type fullname="Timers" preserve="all" />
+    <type fullname="TimersFrame" preserve="all" />
+    <type fullname="TimersRoot" preserve="all" />
+    <type fullname="TimerTmp" preserve="all" />
     <type fullname="TongueTwistersDeepTextScriptable" preserve="all" />
     <type fullname="TongueTwistersInteractable" preserve="all" />
     <type fullname="TongueTwistersItemSelector" preserve="all" />
@@ -333,6 +338,7 @@
     <type fullname="VisualizerService" preserve="all" />
     <type fullname="WindowBackground" preserve="all" />
     <type fullname="WordDataListScriptable" preserve="all" />
+    <type fullname="WordFx" preserve="all" />
     <type fullname="WordVariants" preserve="all" />
     <type fullname="Chunk" preserve="nothing" serialized="true" />
     <type fullname="DeepText" preserve="nothing" serialized="true" />
@@ -352,6 +358,8 @@
     <type fullname="InteractableObjectActivatorByEnglishLevel/PermissionWithEnglishLevel" preserve="nothing" serialized="true" />
     <type fullname="ShowFlagsCutScene/FlagCamera" preserve="nothing" serialized="true" />
     <type fullname="SplineHolderMain/SplineItem" preserve="nothing" serialized="true" />
+    <type fullname="TimersRoot/TimerSettings" preserve="nothing" serialized="true" />
+    <type fullname="TongueTwistersInteractable/TimerMultiplier" preserve="nothing" serialized="true" />
     <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
     <type fullname="AdvSpriteAudioItem" preserve="nothing" serialized="true" />
@@ -515,7 +523,6 @@
     <type fullname="TMPro.TextMeshPro" preserve="all" />
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
@@ -525,6 +532,7 @@
     <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
@@ -559,8 +567,8 @@
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
-    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[Recognissimo.InitializationException]" preserve="nothing" serialized="true" />
