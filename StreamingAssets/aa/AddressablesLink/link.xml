@@ -10,7 +10,6 @@
     <type fullname="AdjustableCameraAnglesScriptable" preserve="all" />
     <type fullname="AdjustablePlayerCameraRoot" preserve="all" />
     <type fullname="AdjustableSprite" preserve="all" />
-    <type fullname="AdvertisementPrerollUI" preserve="all" />
     <type fullname="AdvertisementProgressBar" preserve="all" />
     <type fullname="AdvertisementScriptable" preserve="all" />
     <type fullname="AdvertisementStarter" preserve="all" />
@@ -165,8 +164,6 @@
     <type fullname="MainScene.Services.ContentRoot.RepeatPointTextSelector" preserve="all" />
     <type fullname="MainScene.Services.ContentRoot.TongueTwistersPointItem" preserve="all" />
     <type fullname="MainScene.Services.ContentRoot.TongueTwistersPointItemsList" preserve="all" />
-    <type fullname="MainScene.UI.Windows.Advertisement.AdvertisementSpriteObject" preserve="all" />
-    <type fullname="MainScene.UI.Windows.Advertisement.AdvertisementVideoObject" preserve="all" />
     <type fullname="MainScene.UI.Windows.AdvertisementService" preserve="all" />
     <type fullname="MainScene.UI.Windows.NeedUpgradeWindow" preserve="all" />
     <type fullname="MainScene.UI.Windows.OneActionWindow" preserve="all" />
@@ -330,6 +327,8 @@
     <type fullname="UserMenuRefreshPage" preserve="all" />
     <type fullname="UserMenuUI" preserve="all" />
     <type fullname="UserMenuUIButton" preserve="all" />
+    <type fullname="VideoFlipbookAsset" preserve="all" />
+    <type fullname="VideoFlipbookCrossfadePlayer" preserve="all" />
     <type fullname="VideoPlayerAsset.UI.VideoControlsUI" preserve="all" />
     <type fullname="VideoPlayerAsset.Video.VideoController" preserve="all" />
     <type fullname="VideoURLScriptable" preserve="all" />
@@ -362,7 +361,6 @@
     <type fullname="TongueTwistersInteractable/TimerMultiplier" preserve="nothing" serialized="true" />
     <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
-    <type fullname="AdvSpriteAudioItem" preserve="nothing" serialized="true" />
     <type fullname="AudioEffects/AudioEffect" preserve="nothing" serialized="true" />
     <type fullname="AudioService/Group" preserve="nothing" serialized="true" />
     <type fullname="AudioSettingsScriptable/AbstractAmbient" preserve="nothing" serialized="true" />
@@ -458,6 +456,8 @@
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[WordDataListScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[MainScene.Services.ContentRoot.LanguageLevelContent]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.AudioClip]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.Sprite]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseList]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[RepeatPointDeepTextScriptable]" preserve="nothing" serialized="true" />
