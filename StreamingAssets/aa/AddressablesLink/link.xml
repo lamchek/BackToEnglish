@@ -6,7 +6,6 @@
     <type fullname="ActionButtonTextScriptable" preserve="all" />
     <type fullname="AdaptiveOrientationForBigBlackPlane" preserve="all" />
     <type fullname="AdjustableCameraAngle" preserve="all" />
-    <type fullname="AdjustableCameraAngleSimple" preserve="all" />
     <type fullname="AdjustableCameraAnglesScriptable" preserve="all" />
     <type fullname="AdjustablePlayerCameraRoot" preserve="all" />
     <type fullname="AdjustableSprite" preserve="all" />
@@ -35,6 +34,7 @@
     <type fullname="BrickSoundEffect" preserve="all" />
     <type fullname="BricksSpawner" preserve="all" />
     <type fullname="ButtonColliderWithoutMesh" preserve="all" />
+    <type fullname="CameraEffects" preserve="all" />
     <type fullname="Captions" preserve="all" />
     <type fullname="CaptionsFog" preserve="all" />
     <type fullname="CaptionsSceneRoot" preserve="all" />
@@ -56,8 +56,6 @@
     <type fullname="CillianTutorPlane" preserve="all" />
     <type fullname="CirclesDiagramAnimator" preserve="all" />
     <type fullname="CloudService" preserve="all" />
-    <type fullname="ColorLookupEffects" preserve="all" />
-    <type fullname="ComboEffects" preserve="all" />
     <type fullname="ConeDetector" preserve="all" />
     <type fullname="ContentLoader" preserve="all" />
     <type fullname="CreatePlayerFriend" preserve="all" />
@@ -101,16 +99,10 @@
     <type fullname="HintService" preserve="all" />
     <type fullname="IdButton" preserve="all" />
     <type fullname="IdButtonInfoText" preserve="all" />
-    <type fullname="IndieStudio.DrawingAndColoring.Logic.Area" preserve="all" />
-    <type fullname="IndieStudio.DrawingAndColoring.Logic.DrawCanvas" preserve="all" />
-    <type fullname="IndieStudio.DrawingAndColoring.Logic.DrawingContents" preserve="all" />
-    <type fullname="IndieStudio.DrawingAndColoring.Logic.History" preserve="all" />
     <type fullname="IndieStudio.DrawingAndColoring.Logic.Line" preserve="all" />
     <type fullname="IndieStudio.DrawingAndColoring.Logic.PaintLine" preserve="all" />
     <type fullname="IndieStudio.DrawingAndColoring.Logic.Tool" preserve="all" />
     <type fullname="IndieStudio.DrawingAndColoring.Logic.ToolContent" preserve="all" />
-    <type fullname="IndieStudio.DrawingAndColoring.Logic.UIEvents" preserve="all" />
-    <type fullname="IndieStudio.DrawingAndColoring.Logic.WorldSpaceRender" preserve="all" />
     <type fullname="InputSwitcher" preserve="all" />
     <type fullname="InteractableLayerList" preserve="all" />
     <type fullname="InteractableObjectActivatorByEnglishLevel" preserve="all" />
@@ -121,7 +113,6 @@
     <type fullname="LessonContentSwitcher" preserve="all" />
     <type fullname="LessonData" preserve="all" />
     <type fullname="LessonDataList" preserve="all" />
-    <type fullname="LessonEffects" preserve="all" />
     <type fullname="LessonExerciseListDataHolder" preserve="all" />
     <type fullname="LessonExerciseProvider" preserve="all" />
     <type fullname="LessonExerciseSwitcher" preserve="all" />
@@ -152,7 +143,6 @@
     <type fullname="LibraryWindow" preserve="all" />
     <type fullname="LIghtSourceEffect" preserve="all" />
     <type fullname="ListenTask" preserve="all" />
-    <type fullname="LookAtTargetAdaptive" preserve="all" />
     <type fullname="MainPlayer" preserve="all" />
     <type fullname="MainScene.Services.ContentRoot.ContentRoot" preserve="all" />
     <type fullname="MainScene.Services.ContentRoot.ContentRootService" preserve="all" />
@@ -165,7 +155,6 @@
     <type fullname="MainScene.Services.ContentRoot.TongueTwistersPointItem" preserve="all" />
     <type fullname="MainScene.Services.ContentRoot.TongueTwistersPointItemsList" preserve="all" />
     <type fullname="MainScene.UI.Windows.AdvertisementService" preserve="all" />
-    <type fullname="MainScene.UI.Windows.NeedUpgradeWindow" preserve="all" />
     <type fullname="MainScene.UI.Windows.OneActionWindow" preserve="all" />
     <type fullname="MainScene.UI.Windows.Windows" preserve="all" />
     <type fullname="MessageService" preserve="all" />
@@ -174,7 +163,6 @@
     <type fullname="Outliner" preserve="all" />
     <type fullname="PaintUICanvas" preserve="all" />
     <type fullname="PanelDisappearing" preserve="all" />
-    <type fullname="PatreonTogglesUI" preserve="all" />
     <type fullname="PauseBackground" preserve="all" />
     <type fullname="PauseDoc" preserve="all" />
     <type fullname="PauseService" preserve="all" />
@@ -195,8 +183,6 @@
     <type fullname="PlayerSettingsNamespace.PlayerSettingsScriptable" preserve="all" />
     <type fullname="PointerOverOutMoveEvents" preserve="all" />
     <type fullname="PointerService" preserve="all" />
-    <type fullname="PostEffects" preserve="all" />
-    <type fullname="PostProcessingRoot" preserve="all" />
     <type fullname="ProgressPath" preserve="all" />
     <type fullname="ProgressPathData" preserve="all" />
     <type fullname="ProgressPathPoint" preserve="all" />
@@ -240,20 +226,11 @@
     <type fullname="SceneCounter" preserve="all" />
     <type fullname="SceneReferenceHolder" preserve="all" />
     <type fullname="SceneReferenceObject" preserve="all" />
-    <type fullname="ScrollerService" preserve="all" />
-    <type fullname="Services.PostEffects.AberrationEffects" preserve="all" />
-    <type fullname="Services.PostEffects.BlurEffects" preserve="all" />
-    <type fullname="Services.PostEffects.ColorEffects" preserve="all" />
-    <type fullname="Services.PostEffects.DepthOfFieldEffects" preserve="all" />
-    <type fullname="Services.PostEffects.FullScreenEffect" preserve="all" />
-    <type fullname="Services.PostEffects.LensEffects" preserve="all" />
-    <type fullname="Services.PostEffects.VignetteEffects" preserve="all" />
     <type fullname="SetStartStateHelper" preserve="all" />
     <type fullname="Settings" preserve="all" />
     <type fullname="Settings_SO.Player.Characteristics.Characteristic" preserve="all" />
     <type fullname="Settings_SO.Services.RenderScaler" preserve="all" />
     <type fullname="ShowFlagsCutScene" preserve="all" />
-    <type fullname="SimpleBackgroundReplacer" preserve="all" />
     <type fullname="SimpleTranslateScriptable" preserve="all" />
     <type fullname="SkillAccruer" preserve="all" />
     <type fullname="SkillAccruerTest" preserve="all" />
@@ -273,7 +250,6 @@
     <type fullname="SkillsMenuSpeakingClickHandler" preserve="all" />
     <type fullname="SmoothDampFollowing" preserve="all" />
     <type fullname="SpeakingModeIcon" preserve="all" />
-    <type fullname="SpeakingWindow" preserve="all" />
     <type fullname="Spelling" preserve="all" />
     <type fullname="SplineFollowing" preserve="all" />
     <type fullname="SplineHolderMain" preserve="all" />
@@ -470,35 +446,16 @@
     <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.FloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.NoInterpTextureParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Vector2Parameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.ChromaticAberration" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.ColorLookup" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.DepthOfField" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.FilmGrain" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.LensDistortion" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.MotionBlur" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.SplitToning" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.Tonemapping" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.DepthOfFieldModeParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.FilmGrainLookupParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.HDRACESPresetParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.MotionBlurModeParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.MotionBlurQualityParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.TonemappingModeParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -556,6 +513,7 @@
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
@@ -601,15 +559,12 @@
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.Shadow" preserve="all" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
