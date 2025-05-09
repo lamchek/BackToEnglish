@@ -19,13 +19,17 @@ function checkTabletRatio()
     var innerWidth = window.innerWidth;
     var innerHeight = window.innerHeight;
     console.log("WindowRatio: (inner) {0} x {1}", innerWidth, innerHeight);
+    var innerRatio = width / height;
+    console.log("WindowRatio: (inner)" + innerRatio);
+    innerRatio = Math.round(innerRatio * 100) / 100;
+    console.log("WindowRatio: (inner round): " + innerRatio);
     
-    if (ratio >= 0.73 && ratio <= 0.76) 
+    if (innerRatio >= 0.73 && innerRatio <= 0.76) 
     {
         console.log("WindowRatio: looks like an Tablet");
         return true;
     }
-    else if (ratio >= 2.23 && ratio <= 2.43) 
+    else if (innerRatio >= 2.23 && innerRatio <= 2.43) 
     {
         console.log("WindowRatio: looks like an Tablet");
         return true;
