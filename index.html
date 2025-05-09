@@ -106,7 +106,7 @@
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
-
+        console.warn("mobile userAgent (devicePixelRatio = 1.5652174): " + navigator.userAgent);
         var meta = document.createElement('meta');
         meta.name = 'viewport';
         meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
@@ -121,7 +121,7 @@
         config.devicePixelRatio = 1.5652174;//1.8;
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-
+        console.warn("desktop userAgent: (devicePixelRatio = 1.1304348)" + navigator.userAgent);
         canvas.style.width = "100%";
         canvas.style.height = "100%";
         config.devicePixelRatio = 1.1304348;//1.3;
