@@ -51,6 +51,7 @@
     <script src='JsFirstFrame.js'></script>
     <script src='JsMouseLeaveMouseEnter.js'></script>
     <script src='JsLoaderBar.js'></script>
+    <script src='WindowRatio.js'></script>
     <script>
 
       var container = document.querySelector("#unity-container");
@@ -106,7 +107,6 @@
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
-        console.warn("mobile userAgent (devicePixelRatio = 1.5652174): " + navigator.userAgent);
         var meta = document.createElement('meta');
         meta.name = 'viewport';
         meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
@@ -118,7 +118,16 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        config.devicePixelRatio = 1.5652174;//1.8;
+        if (checkTabletRatio())
+        {
+          config.devicePixelRatio = 1.8;//1.8;
+          console.warn("mobile userAgent (devicePixelRatio = 1.8): " + navigator.userAgent);
+        }
+        else
+        {
+          config.devicePixelRatio = 1.5652174;//1.8;
+          console.warn("mobile userAgent (devicePixelRatio = 1.5652174): " + navigator.userAgent);
+        }
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
         console.warn("desktop userAgent: (devicePixelRatio = 1.1304348)" + navigator.userAgent);
