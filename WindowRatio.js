@@ -24,12 +24,7 @@ function checkTabletRatio()
     innerRatio = Math.round(innerRatio * 100) / 100;
     console.log("WindowRatio: (inner round): " + innerRatio);
     
-    if (innerRatio >= 0.73 && innerRatio <= 0.8) 
-    {
-        console.log("WindowRatio: looks like an Tablet");
-        return true;
-    }
-    else if (innerRatio >= 1.47 && innerRatio <= 1.91) 
+    if (innerRatio >= 0.7 && innerRatio <= 1.93) 
     {
         console.log("WindowRatio: looks like an Tablet");
         return true;
