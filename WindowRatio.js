@@ -1,6 +1,9 @@
 function checkTabletRatio() 
 {
-    var ratio = window.screen.availWidth / window.screen.availHeight;
+    var availWidth = window.screen.availWidth;
+    var avaiHeight = window.screen.availHeight;
+    console.log("WindowRatio: {0} x {1}", availWidth, avaiHeight);
+    var ratio = availWidth / availHeight;
     console.log("WindowRatio: " + ratio);
     ratio = Math.round(ratio * 100) / 100;
     console.log("WindowRatio: (round): " + ratio);
