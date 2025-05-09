@@ -16,6 +16,10 @@ function checkTabletRatio()
     ratio = Math.round(ratio * 100) / 100;
     console.log("WindowRatio: (round): " + ratio);
     
+    var innerWidth = window.innerWidth;
+    var innerHeight = window.innerHeight;
+    console.log("WindowRatio: (inner) {0} x {1}", innerWidth, innerHeight);
+    
     if (ratio >= 0.73 && ratio <= 0.76) 
     {
         console.log("WindowRatio: looks like an Tablet");
