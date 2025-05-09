@@ -19,15 +19,6 @@
           </div>
           <div id="progress-box">
             <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
-<!--            <div id="ld-progress-bar" class="ldBar"-->
-<!--                 data-type="stroke"-->
-<!--                 data-path="M0 7 L100 7"-->
-<!--                 data-stroke-width="2"-->
-<!--                 data-stroke-trail="1"-->
-<!--                 data-value="0"-->
-<!--                 style="width:512px;height:113px"-->
-<!--                 data-preset="line"-->
-<!--            ></div>-->
           </div>
         </div>
       </div>
@@ -97,7 +88,7 @@
         productVersion: "0.1.1",
         showBanner: unityShowBanner,
       };
-
+      
       // By default, Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
       // Set this to false if you want to decouple this synchronization from
@@ -118,13 +109,10 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        if (checkTabletRatio())
-        {
+        if (checkTabletRatio()) {
           config.devicePixelRatio = 1.8;//1.8;
           console.warn("mobile userAgent (devicePixelRatio = 1.8): " + navigator.userAgent);
-        }
-        else
-        {
+        } else {
           config.devicePixelRatio = 1.5652174;//1.8;
           console.warn("mobile userAgent (devicePixelRatio = 1.5652174): " + navigator.userAgent);
         }
@@ -159,93 +147,6 @@
             });
       };
       document.body.appendChild(script);
-      
-      // let startFilling;
-      // let lastStamp;
-      // function fillProgress(timestamp)
-      // {
-      //   if (startFilling === undefined) startFilling = timestamp;
-      //   let elapsed = timestamp - startFilling;
-      //   let deltaTime;
-      //   if (lastStamp === undefined) deltaTime = 0;
-      //   else deltaTime = timestamp - lastStamp;
-      //   lastStamp = timestamp;
-      //   // console.log("fillProgress: elapsed after create unity instance: " + elapsed / 1000 + " s");
-      //   // console.log("fillProgress: elapsed deltaTime: " + deltaTime + " ms");
-      //   setProgress(0.95);
-      //   if (loadingScreen.style.display === "none"){
-      //     // loadingScreen.style.display = "flex";
-      //   }
-      //   else requestAnimationFrame(fillProgress);
-      // }
-
-      // let minLoadingTimeFor90 = 2;
-      // let maxLoadingTimeFor90 = 20;
-      // let minLoadingTimeFor95To100 = 2.1;
-      // let loadingTimerSec = 0;
-      // let lastDate = null;
-      // let loadingProgress = 0;
-      // function setProgress(realProgressByOne)
-      // {
-      //   if (lastDate === undefined) lastDate = Date.now();
-      //   let deltaTime = (Date.now() - lastDate) / 1000; // milliseconds -> seconds
-      //   lastDate = Date.now();
-      //   // console.log("setProgress: deltaTime: " + deltaTime + " s");
-      //   // console.log("setProgress: realProgressByOne: " + realProgressByOne);
-      //   loadingTimerSec += deltaTime;
-      //  
-      //   if (loadingProgress < 90) 
-      //   {
-      //     let onePoint = 0;
-      //     if (realProgressByOne < 0.8 && loadingTimerSec < minLoadingTimeFor90) onePoint = 90 / (maxLoadingTimeFor90 * 60);
-      //     else if (realProgressByOne < 0.8 && loadingTimerSec >= minLoadingTimeFor90) onePoint = 90 / (maxLoadingTimeFor90 * 60);
-      //     else if (realProgressByOne >= 0.8 && loadingTimerSec < minLoadingTimeFor90) onePoint = 90 / (minLoadingTimeFor90 * 60);
-      //     else if (realProgressByOne >= 0.8 && loadingTimerSec >= minLoadingTimeFor90) onePoint = 90 / (minLoadingTimeFor90 * 60);
-      //     else onePoint = 90 / (minLoadingTimeFor90 * 60);
-      //     // console.log("onePoint: " + onePoint.toFixed(3))
-      //     loadingProgress += onePoint;
-      //     // console.log("loadingProgress < 90  (" + loadingProgress + ") ");
-      //     // bar.set(loadingProgress, true);
-      //   }
-      //   else if (loadingProgress < 95)
-      //   {
-      //     loadingProgress = 90 + 0.5 * (realProgressByOne * 100 - 90);
-      //     // console.log("loadingProgress < 95  (" + loadingProgress + ") ");
-      //     // bar.set(loadingProgress, true);
-      //   }
-      //   else if (loadingProgress < 100)
-      //   {
-      //     let onePoint = 5 / (minLoadingTimeFor95To100 * 60);
-      //     // console.log("onePoint: " + onePoint.toFixed(3))
-      //     loadingProgress += onePoint;
-      //     // console.log("loadingProgress <= 100  (" + loadingProgress + ") ");
-      //     // bar.set(loadingProgress, true);
-      //   }
-      //   else 
-      //   {
-      //     // console.log("loadingProgress > 100. (" + loadingProgress + "). ")
-      //     loadingScreen.style.display = "none";
-      //   }
-      // }
-      
-      
-      // trucks
-      // window.addEventListener("DOMContentLoaded", loading)
-      // function loading() {
-      //   var percents = [0.25, 0.5, 0.75, 1],
-      //           step = 0,
-      //           truckLoopDur = 10,
-      //           fill = function () {
-      //             let fillEl = document.querySelector(".progress-fill");
-      //             fillEl.style.transform = "scaleY(" + percents[step] + ")";
-      //             ++step;
-      //
-      //             if (step < percents.length) {
-      //               setTimeout(fill, (truckLoopDur * 1e3) / 2);
-      //             }
-      //           };
-      //   setTimeout(fill, (truckLoopDur * 1e3) / 4);
-      // }
     </script>
   </body>
 </html>
