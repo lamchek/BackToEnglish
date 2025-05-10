@@ -42,7 +42,6 @@
     <script src='JsFirstFrame.js'></script>
     <script src='JsMouseLeaveMouseEnter.js'></script>
     <script src='JsLoaderBar.js'></script>
-    <script src='WindowRatio.js'></script>
     <script>
 
       var container = document.querySelector("#unity-container");
@@ -88,59 +87,40 @@
         productVersion: "0.1.1",
         showBanner: unityShowBanner,
       };
+      
+      // By default, Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
 
-      function setDefaultDevicePixelRatio() {
-        // By default, Unity keeps WebGL canvas render target size matched with
-        // the DOM size of the canvas element (scaled by window.devicePixelRatio)
-        // Set this to false if you want to decouple this synchronization from
-        // happening inside the engine, and you would instead like to size up
-        // the canvas DOM size and WebGL render target sizes yourself.
-        // config.matchWebGLToCanvasSize = false;
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
 
-        if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-          // Mobile device style: fill the whole browser client area with the game canvas:
-          var meta = document.createElement('meta');
-          meta.name = 'viewport';
-          meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-          document.getElementsByTagName('head')[0].appendChild(meta);
-          container.className = "unity-mobile";
-          canvas.className = "unity-mobile";
-
-          // To lower canvas resolution on mobile devices to gain some
-          // performance, uncomment the following line:
-          // config.devicePixelRatio = 1;
-
-          if (checkTabletRatio()) {
-            config.devicePixelRatio = 1.8;//1.8;
-            console.warn("mobile userAgent (devicePixelRatio = 1.8): " + navigator.userAgent);
-          } else {
-            config.devicePixelRatio = 1.5652174;//1.8;
-            console.warn("mobile userAgent (devicePixelRatio = 1.5652174): " + navigator.userAgent);
-          }
-        } else {
-          // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-          console.warn("desktop userAgent: (devicePixelRatio = 1.1304348)" + navigator.userAgent);
-          canvas.style.width = "100%";
-          canvas.style.height = "100%";
-          config.devicePixelRatio = 1.1304348;//1.3;
-        }
-      }
-      function setDevicePixelRatioIndex(devicePixelRatio) {
-        if (devicePixelRatio > 0) {
-          config.devicePixelRatio = devicePixelRatio;
-          console.warn("setDevicePixelRatioIndex: " + devicePixelRatio);
-        }
-        else {
-          setDefaultDevicePixelRatio();
-          console.warn("setDevicePixelRatioIndex: (to default): " + config.devicePixelRatio);
-        }
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+        
+        config.devicePixelRatio = 1.5652174;//1.8;
+        console.warn("mobile userAgent (devicePixelRatio = 1.5652174): " + navigator.userAgent);
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+        console.warn("desktop userAgent: (devicePixelRatio = 1.5652174): " + navigator.userAgent);
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+        config.devicePixelRatio = 1.5652174;//1.3;
       }
       function getDevicePixelRatioIndex() {
         console.warn("getDevicePixelRatioIndex: " + config.devicePixelRatio);
         return config.devicePixelRatio;
       }
-      
-      setDefaultDevicePixelRatio();
       
       loadingScreen.style.display = "block";
       

@@ -333,6 +333,7 @@
     <type fullname="InteractableObjectActivatorByEnglishLevel/PermissionWithEnglishLevel" preserve="nothing" serialized="true" />
     <type fullname="ShowFlagsCutScene/FlagCamera" preserve="nothing" serialized="true" />
     <type fullname="SplineHolderMain/SplineItem" preserve="nothing" serialized="true" />
+    <type fullname="TestExerciseSwitcher/ExerciseSelectionByUnitsCount" preserve="nothing" serialized="true" />
     <type fullname="TimersRoot/TimerSettings" preserve="nothing" serialized="true" />
     <type fullname="TongueTwistersInteractable/TimerMultiplier" preserve="nothing" serialized="true" />
     <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
@@ -513,7 +514,6 @@
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
-    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
@@ -550,10 +550,10 @@
   </assembly>
   <assembly fullname="UnityEngine.TextCoreTextEngineModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.TextCore.Text.FontAsset" preserve="all" />
+    <type fullname="UnityEngine.TextCore.Text.Character" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontAssetCreationEditorSettings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.Text.Character" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
