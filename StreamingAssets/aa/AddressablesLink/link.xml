@@ -157,8 +157,6 @@
     <type fullname="MainScene.UI.Windows.AdvertisementService" preserve="all" />
     <type fullname="MainScene.UI.Windows.OneActionWindow" preserve="all" />
     <type fullname="MainScene.UI.Windows.Windows" preserve="all" />
-    <type fullname="MessageService" preserve="all" />
-    <type fullname="MessageUI" preserve="all" />
     <type fullname="OnPointerDownWithEvent" preserve="all" />
     <type fullname="Outliner" preserve="all" />
     <type fullname="PaintUICanvas" preserve="all" />
@@ -550,10 +548,10 @@
   </assembly>
   <assembly fullname="UnityEngine.TextCoreTextEngineModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.TextCore.Text.FontAsset" preserve="all" />
-    <type fullname="UnityEngine.TextCore.Text.Character" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontAssetCreationEditorSettings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.Text.FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Text.Character" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
